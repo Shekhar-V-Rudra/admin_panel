@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <title> Baytac Admin - Dashboard </title>
+    <link href="../assets01/css/index.css" rel="stylesheet" />
+    <link href="../assets01/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets01/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets01/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" rel="stylesheet" /> </head>
+
+<body>
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-logo">
+                <div class="logo-row">
+                    <div class="d-flex flex-row justify-content-center"> <img alt="logo-image" class="logo-image" loading="lazy" src="../assets01/images/logo.png" /> </div>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <p class="nav-category"> main </p>
+                <a class="nav-item" href="index.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 10.5 12 3l9 7.5"> </path>
+                        <path d="M5 9.5V21h14V9.5"> </path>
+                        <path d="M9 21v-6h6v6"> </path>
+                    </svg> <span class="label">
+                        Dashboard
+                    </span> </a>
+                <p class="nav-category01"> User & Management </p>
+                <a class="nav-item" href="user.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"> </path>
+                        <circle cx="9" cy="7" r="4"> </circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"> </path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"> </path>
+                    </svg> <span class="label">
+                        Users Management
+                    </span> </a>
+                <a class="nav-item" href="agent.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="12" cy="8" r="4"> </circle>
+                        <path d="M4 21c0-3.9 3.6-7 8-7s8 3.1 8 7"> </path>
+                    </svg> <span class="label">
+                        Agents Management
+                    </span> </a>
+                <a class="nav-item" href="agency.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 21h18"> </path>
+                        <path d="M5 21V7l7-4 7 4v14"> </path>
+                        <path d="M9 9h1M9 13h1M14 9h1M14 13h1M10 21v-4h4v4"> </path>
+                    </svg> <span class="label">
+                        Agencies Management
+                    </span> </a>
+                <a class="nav-item" href="developer.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <polyline points="16 18 22 12 16 6"> </polyline>
+                        <polyline points="8 6 2 12 8 18"> </polyline>
+                    </svg> <span class="label">
+                        Developers Management
+                    </span> </a>
+                <a class="nav-item" href="roles.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M12 2 4 5v6c0 5 3.4 8.7 8 11 4.6-2.3 8-6 8-11V5l-8-3Z"> </path>
+                    </svg> <span class="label">
+                        Roles & Permissions
+                    </span> </a>
+                <p class="nav-category01"> Listings & Content </p>
+                <a class="nav-item" href="property.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 10.5 12 3l9 7.5"> </path>
+                        <path d="M5 9.5V21h14V9.5"> </path>
+                        <path d="M9 21v-6h6v6"> </path>
+                    </svg> <span class="label">
+                        Properties Management
+                    </span> </a>
+                <a class="nav-item" href="approval.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="17" rx="2" width="18" x="3" y="4"> </rect>
+                        <path d="M8 2v4M16 2v4M8 12l2.5 2.5L16 9"> </path>
+                    </svg> <span class="label">
+                        Property Approval
+                    </span> <span class="badge">
+                        312
+                    </span> </a>
+                <a class="nav-item" href="listing.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M9 6h11"> </path>
+                        <path d="M9 12h11"> </path>
+                        <path d="M9 18h11"> </path>
+                        <circle cx="4" cy="6" r="1"> </circle>
+                        <circle cx="4" cy="12" r="1"> </circle>
+                        <circle cx="4" cy="18" r="1"> </circle>
+                    </svg> <span class="label">
+                        Listings Management
+                    </span> </a>
+                <a class="nav-item" href="projects.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="12" rx="2" width="18" x="3" y="5"> </rect>
+                        <path d="M2 19h20"> </path>
+                        <path d="M9 10l-2 2 2 2"> </path>
+                        <path d="M15 10l2 2-2 2"> </path>
+                    </svg> <span class="label">
+                        Projects Management
+                    </span> </a>
+                <a class="nav-item" href="areas.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M8 3H3v5"> </path>
+                        <path d="M3 3l6 6"> </path>
+                        <path d="M16 3h5v5"> </path>
+                        <path d="M21 3l-6 6"> </path>
+                        <path d="M3 16v5h5"> </path>
+                        <path d="M3 21l6-6"> </path>
+                        <path d="M21 16v5h-5"> </path>
+                        <path d="M21 21l-6-6"> </path>
+                    </svg> <span class="label">
+                        Areas Management
+                    </span> </a>
+                <a class="nav-item" href="category.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="7" rx="1" width="7" x="3" y="3"> </rect>
+                        <rect height="7" rx="1" width="7" x="14" y="3"> </rect>
+                        <rect height="7" rx="1" width="7" x="3" y="14"> </rect>
+                        <rect height="7" rx="1" width="7" x="14" y="14"> </rect>
+                    </svg> <span class="label">
+                        Categories & Types
+                    </span> </a>
+                <a class="nav-item" href="amenities.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="16" rx="2" width="18" x="3" y="4"> </rect>
+                        <circle cx="7" cy="9" r="0.8"> </circle>
+                        <circle cx="7" cy="15" r="0.8"> </circle>
+                        <path d="M10 9h7"> </path>
+                        <path d="M10 15h7"> </path>
+                    </svg> <span class="label">
+                        Amenities Management
+                    </span> </a>
+                <a class="nav-item" href="features.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M4 6h16"> </path>
+                        <path d="M4 12h16"> </path>
+                        <path d="M4 18h16"> </path>
+                        <circle cx="7" cy="6" r="1"> </circle>
+                        <circle cx="7" cy="12" r="1"> </circle>
+                        <circle cx="7" cy="18" r="1"> </circle>
+                    </svg> <span class="label">
+                        Features Management
+                    </span> </a>
+                <p class="nav-category01"> financial & billing </p>
+                <a class="nav-item" href="subscription.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="14" rx="2" width="20" x="2" y="5"> </rect>
+                        <path d="M2 10h20"> </path>
+                    </svg> <span class="label">
+                        Subscriptions & Plans
+                    </span> </a>
+                <a class="nav-item" href="transcation.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="12" rx="2" width="18" x="3" y="6"> </rect>
+                        <circle cx="12" cy="12" r="2.5"> </circle>
+                        <path d="M6 9c.8 0 1.5-.7 1.5-1.5"> </path>
+                        <path d="M18 9c-.8 0-1.5-.7-1.5-1.5"> </path>
+                        <path d="M6 15c.8 0 1.5.7 1.5 1.5"> </path>
+                        <path d="M18 15c-.8 0-1.5.7-1.5 1.5"> </path>
+                    </svg> <span class="label">
+                        Transactions
+                    </span> </a>
+                <a class="nav-item" href="invoice.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+                        <polyline points="14 2 14 8 20 8"> </polyline>
+                        <path d="M9 13h6M9 17h6"> </path>
+                    </svg> <span class="label">
+                        Invoices Management
+                    </span> </a>
+                <a class="nav-item" href="payout.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <!-- Dollar -->
+                        <circle cx="18" cy="6" r="3"> </circle>
+                        <path d="M18 4.5v3"> </path>
+                        <path d="M17 5.5c0-.6.5-1 1-1s1 .4 1 1-.5 1-1 1-.9.3-.9.9.4 1.1.9 1.1 1-.4 1-1"> </path>
+                        <!-- Hand -->
+                        <path d="M2 15h5l2 2h5.5c1.4 0 2.5-1.1 2.5-2.5S16.4 12 15 12h-4"> </path>
+                        <path d="M2 15v4h7l2-1h5c2.2 0 4-1.8 4-4"> </path>
+                    </svg> <span class="label">
+                        Payouts
+                    </span> </a>
+                <p class="nav-category01">REPORTS & ANALYTICS</p>
+               <a href="reports.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <path d="M3 11l18-5v14L3 15v-4Z"/>
+                     <path d="M11.6 16.8 9 21H7l1.5-4.6"/>
+                  </svg>
+                  <span class="label">Reports Dashboard</span>
+               </a>
+               <a href="analytics.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <circle cx="12" cy="12" r="9"/>
+                     <path d="M9 7l3 5"/>
+                     <path d="M15 7l-3 5"/>
+                     <path d="M12 12v5"/>
+                  </svg>
+                  <span class="label">Analytics Overview</span>
+               </a>
+               <a href="custom_report.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <rect x="3" y="3" width="18" height="18" rx="2"/>
+                     <path d="M8 17V11M12 17V7M16 17v-4"/>
+                  </svg>
+                  <span class="label">Custom Reports</span>
+               </a>
+                <p class="nav-category01"> system </p>
+                <a class="nav-item" href="system.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="12" cy="12" r="3"> </circle>
+                        <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z">
+                        </path>
+                    </svg> <span class="label">
+                        System Settings
+                    </span> </a>
+                <a class="nav-item active" href="activity.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M4 4v16h16"> </path>
+                        <path d="M7 15l4-4 3 2 4-5"> </path>
+                        <circle cx="7" cy="15" r="0.7"> </circle>
+                        <circle cx="11" cy="11" r="0.7"> </circle>
+                        <circle cx="14" cy="13" r="0.7"> </circle>
+                        <circle cx="18" cy="8" r="0.7"> </circle>
+                    </svg> <span class="label">
+                        Activity Logs
+                    </span> </a>
+                <a class="nav-item" href="audit.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+                        <polyline points="14 2 14 8 20 8"> </polyline>
+                        <path d="M9 13h6M9 17h3"> </path>
+                    </svg> <span class="label">
+                        Audit Logs
+                    </span> </a>
+            </nav>
+            <div class="sidebar-footer d-lg-block d-none">
+                <!-- <div class="status-box">
+          <div class="d-flex flex-row">
+            <i class="fa-solid fa-headphones nav-icons">
+            </i>
+            <div>
+              <p class="nav-paragraph-01">
+                Need Help?
+              </p>
+              <p class="nav-paragraph-02">
+                Our support team is here to help you.
+              </p>
+            </div>
+          </div>
+          <button class="nav-contact-support-btn" type="btn">
+            Contact Support
+          </button>
+        </div>
+        -->
+                <div class="footer-meta"> <strong>
+                        BAYTAC v2.0.0
+                    </strong>
+                    <br /> © 2026 BAYTAC. All rights reserved. </div>
+            </div>
+        </aside>
+        <div class="sidebar-overlay" id="overlay"> </div>
+        <div class="main">
+            <header class="topbar">
+                <button aria-label="Toggle menu" class="menu-toggle" id="menuToggle">
+                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 6h18M3 12h18M3 18h18"> </path>
+                    </svg>
+                </button>
+                <div class="search-box">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="11" cy="11" r="7"> </circle>
+                        <path d="m21 21-4.3-4.3"> </path>
+                    </svg>
+                    <input class="in" id="searchInput" placeholder="Search users, properties, transcations..." type="text" /> <span class="kbd" id="clearSearch">
+                        ⌘K
+                    </span> </div>
+                <div class="topbar-right">
+                    <div class="country-select">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <circle cx="12" cy="12" r="9"> </circle>
+                            <path d="M3 12h18"> </path>
+                            <path d="M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9Z"> </path>
+                        </svg> <span class="label-text">
+                            All Countries
+                        </span>
+                        <svg class="chev" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9"> </polyline>
+                        </svg>
+                        <select class="country-dropdown">
+                            <option> All Countries </option>
+                            <option> India </option>
+                            <option> United States </option>
+                            <option> United Kingdom </option>
+                            <option> Australia </option>
+                            <option> Canada </option>
+                        </select>
+                    </div>
+                    <button aria-label="Notifications" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M6 8a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"> </path>
+                            <path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"> </path>
+                        </svg> <span class="dot-badge">
+                            0
+                        </span> </button>
+                    <button aria-label="Messages" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"> </path>
+                        </svg> <span class="dot-badge">
+                            6
+                        </span> </button>
+                    <button aria-label="Toggle theme" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"> </path>
+                        </svg>
+                    </button>
+                    <div class="divider-v"> </div>
+                    <div class="user-dropdown">
+                        <div class="user-block" id="userToggle"> <img alt="avatar" class="avatar-image" loading="lazy" src="../assets01/images/a01.png" />
+                            <div class="user-info user-info02"> <span class="name">
+                                    Super Admin
+                                </span> <span class="email">
+                                    superadmin@baytac.com
+                                </span> </div>
+                            <svg class="chev" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"> </polyline>
+                            </svg>
+                        </div>
+                        <div class="user-menu" id="userMenu">
+                            <a href="#"> <i class="fas fa-user">
+                                </i> My Profile </a>
+                            <a href="#"> <i class="fas fa-cog">
+                                </i> Settings </a>
+                            <a href="#"> <i class="fas fa-lock">
+                                </i> Change Password </a>
+                            <hr />
+                            <a class="logout" href="#"> <i class="fas fa-sign-out-alt">
+                                </i> Logout </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="content">
+                <div class="d-flex flex-row justify-content-between flex-wrap mb-3">
+                    <div>
+                        <h3 class="admin-heading01">
+                            Activity Logs
+                        </h3>
+                        <p class="admin-paragraph01"> Track and monitor all activities performed across the BAYTAC platform. </p>
+                    </div>
+                    <div class="button-group">
+                        <div class="date-range">
+                            <div class="box"> <span id="dateText">
+                                    May 12, 2025 – Jun 11, 2025
+                                </span>
+                                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                                    <rect height="18" rx="2" width="18" x="3" y="4"> </rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"> </path>
+                                </svg>
+                                <input id="dateRange" type="text" /> </div>
+                        </div>
+                        <button class="action-btn add-btn mt-2"> <i class="fa-solid fa-plus"></i> Export Activity Logs </button>
+                        <button class="action-btn mt-2"> <i class="fa-regular fa-clock"></i> Real-time</i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-around flex-wrap mb-3">
+                    <div class="admin-box-container01 pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Total Activities </p>
+                                <h5 class="admin-heading02">
+                                    1,56,892
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1"></i> 18.6% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-04 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-chart-line admin-user-icon-04"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container01 pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> User Activities </p>
+                                <h5 class="admin-heading02">
+                                    68,453
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1"></i> 12.4% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-user admin-user-icon-02"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container01 pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Admin Activities </p>
+                                <h5 class="admin-heading02">
+                                    24,781
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1"></i> 9.7% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-03 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-user-tie admin-user-icon-03"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container01 pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Property Activities </p>
+                                <h5 class="admin-heading02">
+                                    32,756
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1"></i> 15.3% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-regular fa-building admin-user-icon-05"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container01 pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Financial Activities </p>
+                                <h5 class="admin-heading02">
+                                    30,902
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1"></i> 21.8% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-01 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-wallet admin-user-icon-01"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-between flex-wrap align-items-start">
+                    <div class="main-content-box">
+                        <div class="main-content-box01 pt-3 pb-2 mb-3">
+                            <div class="container-fluid">
+                                <div class="d-flex filter-container flex-wrap">
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label" for="exampleFormControlInput1"> Search Logs </label>
+                                        <div class="position-relative">
+                                            <input class="form-control filter-form pe-5" id="exampleFormControlInput1" placeholder="Search by keyword, ID, user..." type="email" /> <i class="fas fa-search search-icon">
+                                            </i> </div>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Date Range </label>
+                                        <div class="date-range-wrapper"> <i class="fa-regular fa-calendar date-icon">
+                                            </i>
+                                            <input class="form-control date-range-input" id="auditDatePicker" placeholder="May 12, 2026 - Jun 11" readonly="" type="text" /> <i class="fa-solid fa-chevron-down arrow-icon">
+                                            </i> </div>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> User Type </label>
+                                        <select aria-label="All Users Type" class="form-select form-control">
+                                            <option selected=""> All Users Type </option>
+                                            <option value="Admin"> Admin </option>
+                                            <option value="User"> User </option>
+                                            <option value="Agent"> Agent </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Activity Type </label>
+                                        <select aria-label="All Activities" class="form-select form-control">
+                                            <option selected=""> All Activities </option>
+                                            <option value="New Property"> New Property </option>
+                                            <option value="Update Property"> Update Property </option>
+                                            <option value="Delete Property"> Delete Property </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Module </label>
+                                        <select aria-label="All Modules" class="form-select form-control">
+                                            <option selected=""> All Modules </option>
+                                            <option value="Properties"> Properties </option>
+                                            <option value="Users"> Users </option>
+                                            <option value="Messages"> Messages </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Status </label>
+                                        <select aria-label="All Status" class="form-select form-control">
+                                            <option selected=""> All Status </option>
+                                            <option value="Success"> Success </option>
+                                            <option value="Pending"> Pending </option>
+                                            <option value="Failed"> Failed </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label invisible"> More Filters </label>
+                                        <button id="filter-grp-button" type="btn"> <i class="fa-solid fa-sliders me-2">
+                                            </i> More Filters </button>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between flex-wrap">
+                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-home" aria-selected="true" class="nav-link nav-link01 active" data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab" role="tab" type="button"> All Activities </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-profile" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-profile" data-bs-toggle="pill" id="pills-profile-tab" role="tab" type="button"> User Activities </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-contact" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-contact" data-bs-toggle="pill" id="pills-contact-tab" role="tab" type="button"> Admin Activities </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled" data-bs-toggle="pill" id="pills-disabled-tab" role="tab" type="button"> System Activities </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled01" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled01" data-bs-toggle="pill" id="pills-disabled-tab01" role="tab" type="button"> Security Activities </button>
+                                        </li>
+
+                                    </ul>
+                                    <div class="d-flex flex-row flex-wrap mt-3">
+                                        <div class="pagination-wrapper">
+                                            <div class="left-actions">
+                                                <select id="bulkAction">
+                                                    <option> Bulk Actions </option>
+                                                    <option> Delete </option>
+                                                    <option> Export </option>
+                                                    <option> Archive </option>
+                                                </select>
+                                            </div>
+                                            <button class="action-btn"> <i class="fa-solid fa-arrows-rotate">
+                                                </i> </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-scroll mt-2">
+                                    <table>
+                                        <thead>
+                                            <tr>
+
+                                                <th> Time </th>
+                                                <th> User </th>
+                                                <th> User Type </th>
+                                                <th> Activity </th>
+                                                <th> Module </th>
+                                                <th> Details </th>
+                                                <th> IP Address </th>
+                                                <th> Status </th>
+                                                <th> Actions </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-agency="Micheal Lewis" data-id="PR-2025-0987" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">
+                                                            Jun 11, 2025
+                                                        </span>
+                                                        <br /> <span>
+                                                            10:24:53 AM
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img alt="Michael Lewis" class="avatar" src="../assets01/images/a01.png" />
+                                                        <div class="user-info"> <span class="user-name">
+                                                                Michael Lewis
+                                                            </span> <span class="user-phone">
+                                                                michael.lewis@gmail.com
+                                                            </span> </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge01"> Agent
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">
+                                                            Listed a new property
+                                                        </span>
+                                                        <br /> <span>
+                                                            Palm Jumeirah Villa
+                                                        </span> </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03"> Properties
+                                                        </span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02"> <span>
+                                                            Property ID: PR-2025-0987
+                                                        </span> </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>
+                                                            197.168.1.25
+                                                        </span> </div>
+                                                </td>
+
+
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">
+                                                            Success
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis">
+                                                            </i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+
+                                            <tr data-agency="Sarah Johnson" data-id="USR-2025-001" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>10:15:32 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Sarah Johnson" class="avatar" src="../assets01/images/a03.png" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Sarah Johnson</span>
+                                                            <span class="user-phone">sarah.johnson@gmail.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge02">User</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Updated profile information</span>
+                                                        <br>
+                                                        <span>Updated: Phone, Bio</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge02">Users</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Updated: Phone, Bio</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>192.168.1.12</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Admin (Super Admin)" data-id="LS-2025-4521" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>09:58:21 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Admin" class="avatar" src="../assets01/images/dummy-user.jpg" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Admin (Super Admin)</span>
+                                                            <span class="user-phone">superadmin@baytac.ae</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge05">Admin</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Approved property listing</span>
+                                                        <br>
+                                                        <span>Downtown Apartment</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge04">Property Approval</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Listing ID: LS-2025-4521</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>197.168.1.1</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Ahmed Hossain" data-id="7845" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>09:47:10 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Ahmed Hossain" class="avatar" src="../assets01/images/a02.png" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Ahmed Hossain</span>
+                                                            <span class="user-phone">ahmed.hossain@gmail.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge01">Agent</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Sent message to user</span>
+                                                        <br>
+                                                        <span>Re: Property Inquiry</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge01">Messages</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>To: User ID 7845</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>105.168.1.34</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="System" data-id="SYS-001" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>09:36:45 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="System" class="avatar" src="../assets01/images/aldar.jpg" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">System</span>
+                                                            <span class="user-phone">system@baytac.ae</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge06">System</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Daily backup completed</span>
+                                                        <br>
+                                                        <span>Backup size: 2.45 GB</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge06">System</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Backup size: 2.45 GB</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>192.168.1.10</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Emma Properties" data-id="PLAN-999" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>09:21:11 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Emma Properties" class="avatar" src="../assets01/images/emaar.png" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Emma Properties</span>
+                                                            <span class="user-phone">emma@properties.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Agency</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Subscribed to plan</span>
+                                                        <br>
+                                                        <span>Professional Plan</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge05">Subscriptions</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Plan: Professional<br>Amount: AED 999</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>154.168.1.45</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Admin (Moderator)" data-id="POST-9987" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>09:10:05 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Admin (Moderator)" class="avatar" src="../assets01/images/a05.png" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Admin (Moderator)</span>
+                                                            <span class="user-phone">moderator@baytac.ae</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge05">Admin</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Deleted inappropriate post</span>
+                                                        <br>
+                                                        <span>Community Moderation</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge04">Community</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Post ID: POST-9987</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>197.168.1.11</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="James Wilson" data-id="PR-2025-0765" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>08:55:30 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="James Wilson" class="avatar" src="../assets01/images/as02.avif" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">James Wilson</span>
+                                                            <span class="user-phone">james.wilson@gmail.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge02">User</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Saved property</span>
+                                                        <br>
+                                                        <span>Marine View Apartment</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Properties</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Property ID: PR-2025-0765</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>102.168.1.88</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Unknown User" data-id="LOGIN-001" data-status="Inactive">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>08:40:22 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Unknown User" class="avatar" src="../assets01/images/dummy-user.jpg" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Unknown User</span>
+                                                            <span class="user-phone">Guest User</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge06">Guest</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Failed login attempt</span>
+                                                        <br>
+                                                        <span>Reason: Invalid Password</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge05">Security</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Reason: Invalid Password</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>203.0.113.55</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge05">Failed</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr data-agency="Billing System" data-id="INV-2025-8642" data-status="Active">
+
+                                                <td class="user-id">
+                                                    <div class="user-id-01">
+                                                        <span class="b01">Jun 11, 2025</span>
+                                                        <br>
+                                                        <span>08:25:14 AM</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-cell user-cell03">
+                                                        <img alt="Billing System" class="avatar" src="../assets01/images/dummy-user.jpg" />
+                                                        <div class="user-info">
+                                                            <span class="user-name">Billing System</span>
+                                                            <span class="user-phone">billing@baytac.ae</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge06">System</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="user-id">
+                                                    <div class="user-id-02">
+                                                        <span class="b01">Invoice generated</span>
+                                                        <br>
+                                                        <span>Invoice Created Successfully</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge02">Invoices</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-02">
+                                                        <span>Invoice ID: INV-2025-8642</span>
+                                                    </div>
+                                                </td>
+
+                                                <td class="join-date">
+                                                    <div class="user-id-01">
+                                                        <span>192.168.1.15</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="user-id-01">
+                                                        <span class="badge03">Success</span>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn">
+                                                            <i class="fa-solid fa-ellipsis"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between flex-wrap mt-3">
+                                    <p class="paragraph01 pt-2">Showing 1 to 10 of 1,56,892 activities</p>
+                                    <div class="d-flex flex-row flex-wrap">
+                                        <div class="pagination02 mb-2">
+                                            <!-- <button class="page-btn" id="prevBtn">
+                                          <i class="fa-solid fa-chevron-left"></i> --></button>
+                                            <button class="page-number active">1</button>
+                                            <button class="page-number">2</button>
+                                            <button class="page-number">3</button>
+                                            <button class="page-number">4</button>
+                                            <button class="page-number">5</button> <span class="dots">...</span>
+                                            <button class="page-number">15,690</button>
+                                            <button class="page-btn ms-2" id="nextBtn"> <i class="fa-solid fa-chevron-right"></i> </button>
+                                        </div>
+                                        <div class="dropdown mt-1">
+                                            <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> 10/Page </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">20/Page</a></li>
+                                                <li><a class="dropdown-item" href="#">30/Page</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <div class="admin-side-box pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between flex-wrap pb-2">
+                                            <h6 class="admin-heading03">Activities by Time</h6>
+                                            <div class="dropdown">
+                                                <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Last 7 Days </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Last 5 Days</a></li>
+                                                    <li><a class="dropdown-item" href="#">Last 3 Days</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="chart">
+
+                                            <div class="y-axis">
+                                                <div>50K</div>
+                                                <div>30K</div>
+                                                <div>10K</div>
+                                                <div>0</div>
+                                            </div>
+
+                                            <div class="chart-area">
+
+                                                <div class="bars">
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:90px;"></div>
+                                                        <div class="bar center" style="height:155px;"></div>
+                                                        <div class="bar right" style="height:175px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:120px;"></div>
+                                                        <div class="bar center" style="height:135px;"></div>
+                                                        <div class="bar right" style="height:185px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:160px;"></div>
+                                                        <div class="bar center" style="height:105px;"></div>
+                                                        <div class="bar right" style="height:110px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:130px;"></div>
+                                                        <div class="bar center" style="height:210px;"></div>
+                                                        <div class="bar right" style="height:225px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:185px;"></div>
+                                                        <div class="bar center" style="height:160px;"></div>
+                                                        <div class="bar right" style="height:170px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:175px;"></div>
+                                                        <div class="bar center" style="height:215px;"></div>
+                                                        <div class="bar right" style="height:150px;"></div>
+
+                                                    </div>
+
+                                                    <div class="group">
+
+                                                        <div class="bar left" style="height:190px;"></div>
+                                                        <div class="bar center" style="height:170px;"></div>
+                                                        <div class="bar right" style="height:250px;"></div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="labels">
+
+                                                    <div>May 5</div>
+                                                    <div>May 6</div>
+                                                    <div>May 7</div>
+                                                    <div>May 8</div>
+                                                    <div>May 9</div>
+                                                    <div>May 10</div>
+                                                    <div>May 11</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-12 col-lg-6  mb-3">
+                                <div class="admin-side-box pt-3 pb-3">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between flex-wrap mb-4">
+                                            <h6 class="admin-heading03">Top Active Users</h6>
+                                            <div class="dropdown">
+                                                <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Previous Month</a></li>
+                                                    <li><a class="dropdown-item" href="#">02 Months ago</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/a01.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agency-name">Michael Lewis</p>
+                                                </div>
+                                            </div>
+                                            <p class="agency-leads">1,245 activities</p>
+                                        </div>
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/a03.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agency-name">Sarah Johnson</p>
+                                                </div>
+                                            </div>
+                                            <p class="agency-leads">987 activities</p>
+                                        </div>
+
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/a02.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agency-name">Ahmed Hassan</p>
+                                                </div>
+                                            </div>
+                                            <p class="agency-leads">754 events</p>
+                                        </div>
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/emaar.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agency-name">Emma Properties</p>
+                                                </div>
+                                            </div>
+                                            <p class="agency-leads">642 events</p>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/a05.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agency-name">James Wilson</p>
+                                                </div>
+                                            </div>
+                                            <p class="agency-leads">521 events</p>
+                                        </div>
+                                        <button class="view-role-btn" type="btn"> View All Users</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="side-content-box mb-3">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="admin-side-box pt-3 pb-3">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <h6 class="admin-heading03">Activity Details</h6> <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+                                        </div>
+                                        <span class="badge03 mb-3"> Success</span>
+
+                                        <div class=" mb-3">
+                                            <span class="audit-p01">Activity </span>
+                                            <br>
+                                            <span class="audit-p02">Listed a new property</span>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <span class="audit-p01">Description </span>
+                                            <br>
+                                            <span class="audit-p02">User listed a new property on the platform.</span>
+                                        </div>
+
+
+
+                                        <p class="audit-p01 mb-3 pb-1">User: </p>
+
+                                        <div class="d-flex flex-row mb-3">
+                                            <img src="../assets01/images/a01.png" class="num-user-image" alt="user-image" loading="lazy">
+                                            <div>
+                                                <p class="agent-name">Michael Lweis</p>
+                                                <p class="agency">Agent</p>
+                                                <div class="ahref010">
+                                                    <a class="ahref010" href="#">View Profile <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="mb-3">
+                                            <span class="audit-p01">User Type </span>
+                                            <br>
+                                            <span class="audit-p02">Agent</span>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <span class="audit-p01">Module </span>
+                                            <br>
+                                            <span class="audit-p02">Properties</span>
+                                        </div>
+
+                                        <p class="audit-p01 mb-3 mt-3">Property </p>
+
+                                        <div class="user-cell user-cell01">
+                                            <img class="avatar avatar-cell-01" src="../assets01/images/f01.png">
+                                            <div class="user-info"><span class="user-name">Palm Jumeirah Villa</span><span class="user-phone">ID: PR-2025-0987</span><a class="ahref01 pt-1" href="#">View Property <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">Date & Time: </span>
+                                            <span class="audit-p02">Jun 11, 2025 10:25:53 AM <br> (2 minutes ago)</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">IP Address: </span>
+                                            <span class="audit-p02">107.05.2025 <br> Dubai, United Arab Emirates</span>
+                                        </div>
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">Device & Browser: </span>
+                                            <span class="audit-p02">Action Performed <br> Windows 11, Chrome 125.0.0</span>
+                                        </div>
+
+
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">Action Perfromed: </span>
+                                            <span class="audit-p02">Status</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row mb-3">
+                                            <span class="audit-p02 me-2">CREATE</span>
+                                            <span class="badge03"> Success</span>
+                                        </div>
+
+                                        <span class="audit-p02">Additional Information</span>
+                                        <div class="code-box pt-2 pe-2 ps-2 pb-1">
+                                            <p class="code-paragraph">
+                                                {
+                                                <br> "property_id": "PR-2025-0987",
+                                                <br> "property_type": "Villa",
+                                                <br> "location": "Palm Jumeirah, Dubai",
+                                                <br> "price": "6500000",
+                                                <br> "action": "create"
+                                                <br> }
+                                            </p>
+                                        </div>
+
+                                        <button class="view-role-btn mt-2" type="btn"> <i class="fa-regular fa-calendar me-2"></i> View Raw Log Date</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="admin-side-box pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <h6 class="admin-heading03 mb-3">Activities by Status</h6>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <div class="chart-wrap">
+                                                        <svg style="transform: rotate(-90deg);" viewbox="0 0 200 200">
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#2DC789" stroke-dasharray="92.6 7.4" stroke-dashoffset="0" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#EF4444" stroke-dasharray="5.1 94.9" stroke-dashoffset="-92.6" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#FDBC1A" stroke-dasharray="2.3 97.7" stroke-dashoffset="-97.7" stroke-width="23"></circle>
+                                                        </svg>
+                                                        <div class="donut-center">
+                                                            <div class="total-number"> 48,593 </div>
+                                                            <div class="total-label"> Total </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot03"></i> Success </p>
+                                                    <p class="donut01"> 1,45,183(92.6%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot07"></i> Failed </p>
+                                                    <p class="donut01"> 8,001(5.1%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot05"></i> Warning </p>
+                                                    <p class="donut01"> 3,708(2.3%) </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="admin-side-box pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <h6 class="admin-heading03 mb-3">Activities by Module</h6>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <div class="chart-wrap">
+                                                        <svg style="transform: rotate(-90deg);" viewbox="0 0 200 200">
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#4C8AFE" stroke-dasharray="32.5 67.5" stroke-dashoffset="0" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#FDBC1A" stroke-dasharray="18.7 81.3" stroke-dashoffset="-32.5" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#7C3AED" stroke-dasharray="12.4 87.6" stroke-dashoffset="-51.2" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#2DC789" stroke-dasharray="10.1 89.9" stroke-dashoffset="-63.6" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#EF4444" stroke-dasharray="8.7 91.3" stroke-dashoffset="-73.7" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#9FA9C7" stroke-dasharray="17.6 82.4" stroke-dashoffset="-82.4" stroke-width="23"></circle>
+                                                        </svg>
+                                                        <div class="donut-center">
+                                                            <div class="total-number"> 48,593 </div>
+                                                            <div class="total-label"> Total </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot02"></i> Properties </p>
+                                                    <p class="donut01"> 50,943(32.5%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot05"></i> Users </p>
+                                                    <p class="donut01"> 29,282(18.7%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot01"></i> Subscriptions </p>
+                                                    <p class="donut01"> 19,418(12.4%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot03"></i> Messages </p>
+                                                    <p class="donut01"> 15,862(10.1%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot07"></i> Invoices </p>
+                                                    <p class="donut01"> 13,653(8.7%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot06"></i> Others </p>
+                                                    <p class="donut01"> 27,653(17.6%) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <script src="../assets01/js/jquery.min.js">
+            </script>
+            <script src="../assets01/js/bootstrap.bundle.min.js">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/flatpickr">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/apexcharts">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/jsvectormap">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js">
+            </script>
+            <script src="../assets01/js/owl.carousel.min.js">
+            </script>
+            <script src="../assets01/js/index.js">
+            </script>
+            <script src="../assets01/js/graphs.js">
+            </script>
+            <script src="../assets01/js/owl.js">
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                				flatpickr("#auditDatePicker", {
+                					mode: "range",
+                					dateFormat: "M d, Y",
+                					defaultDate: ["2025-05-12", "2025-06-11"],
+                					allowInput: false
+                				});
+                			});
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

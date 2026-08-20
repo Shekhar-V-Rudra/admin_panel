@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+	<title> Baytac Admin - Dashboard </title>
+	<link href="../assets01/css/index.css" rel="stylesheet" />
+	<link href="../assets01/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../assets01/css/owl.carousel.min.css" rel="stylesheet" />
+	<link href="../assets01/css/owl.theme.default.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" rel="stylesheet" /> </head>
+
+<body>
+	<div class="app">
+		<aside class="sidebar" id="sidebar">
+			<div class="sidebar-logo">
+				<div class="logo-row">
+					<div class="d-flex flex-row justify-content-center"> <img alt="logo-image" class="logo-image" loading="lazy" src="../assets01/images/logo.png" /> </div>
+				</div>
+			</div>
+			<nav class="sidebar-nav">
+				<p class="nav-category"> main </p>
+				<a class="nav-item" href="index.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M3 10.5 12 3l9 7.5"> </path>
+						<path d="M5 9.5V21h14V9.5"> </path>
+						<path d="M9 21v-6h6v6"> </path>
+					</svg> <span class="label">
+                        Dashboard
+                    </span> </a>
+				<p class="nav-category01"> User & Management </p>
+				<a class="nav-item" href="user.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"> </path>
+						<circle cx="9" cy="7" r="4"> </circle>
+						<path d="M22 21v-2a4 4 0 0 0-3-3.87"> </path>
+						<path d="M16 3.13a4 4 0 0 1 0 7.75"> </path>
+					</svg> <span class="label">
+                        Users Management
+                    </span> </a>
+				<a class="nav-item" href="agent.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<circle cx="12" cy="8" r="4"> </circle>
+						<path d="M4 21c0-3.9 3.6-7 8-7s8 3.1 8 7"> </path>
+					</svg> <span class="label">
+                        Agents Management
+                    </span> </a>
+				<a class="nav-item" href="agency.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M3 21h18"> </path>
+						<path d="M5 21V7l7-4 7 4v14"> </path>
+						<path d="M9 9h1M9 13h1M14 9h1M14 13h1M10 21v-4h4v4"> </path>
+					</svg> <span class="label">
+                        Agencies Management
+                    </span> </a>
+				<a class="nav-item" href="developer.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<polyline points="16 18 22 12 16 6"> </polyline>
+						<polyline points="8 6 2 12 8 18"> </polyline>
+					</svg> <span class="label">
+                        Developers Management
+                    </span> </a>
+				<a class="nav-item" href="roles.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M12 2 4 5v6c0 5 3.4 8.7 8 11 4.6-2.3 8-6 8-11V5l-8-3Z"> </path>
+					</svg> <span class="label">
+                        Roles & Permissions
+                    </span> </a>
+				<p class="nav-category01"> Listings & Content </p>
+				<a class="nav-item" href="property.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M3 10.5 12 3l9 7.5"> </path>
+						<path d="M5 9.5V21h14V9.5"> </path>
+						<path d="M9 21v-6h6v6"> </path>
+					</svg> <span class="label">
+                        Properties Management
+                    </span> </a>
+				<a class="nav-item" href="approval.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="17" rx="2" width="18" x="3" y="4"> </rect>
+						<path d="M8 2v4M16 2v4M8 12l2.5 2.5L16 9"> </path>
+					</svg> <span class="label">
+                        Property Approval
+                    </span> <span class="badge">
+                        312
+                    </span> </a>
+				<a class="nav-item" href="listing.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M9 6h11"> </path>
+						<path d="M9 12h11"> </path>
+						<path d="M9 18h11"> </path>
+						<circle cx="4" cy="6" r="1"> </circle>
+						<circle cx="4" cy="12" r="1"> </circle>
+						<circle cx="4" cy="18" r="1"> </circle>
+					</svg> <span class="label">
+                        Listings Management
+                    </span> </a>
+				<a class="nav-item" href="projects.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="12" rx="2" width="18" x="3" y="5"> </rect>
+						<path d="M2 19h20"> </path>
+						<path d="M9 10l-2 2 2 2"> </path>
+						<path d="M15 10l2 2-2 2"> </path>
+					</svg> <span class="label">
+                        Projects Management
+                    </span> </a>
+				<a class="nav-item" href="areas.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M8 3H3v5"> </path>
+						<path d="M3 3l6 6"> </path>
+						<path d="M16 3h5v5"> </path>
+						<path d="M21 3l-6 6"> </path>
+						<path d="M3 16v5h5"> </path>
+						<path d="M3 21l6-6"> </path>
+						<path d="M21 16v5h-5"> </path>
+						<path d="M21 21l-6-6"> </path>
+					</svg> <span class="label">
+                        Areas Management
+                    </span> </a>
+				<a class="nav-item" href="category.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="7" rx="1" width="7" x="3" y="3"> </rect>
+						<rect height="7" rx="1" width="7" x="14" y="3"> </rect>
+						<rect height="7" rx="1" width="7" x="3" y="14"> </rect>
+						<rect height="7" rx="1" width="7" x="14" y="14"> </rect>
+					</svg> <span class="label">
+                        Categories & Types
+                    </span> </a>
+				<a class="nav-item" href="amenities.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="16" rx="2" width="18" x="3" y="4"> </rect>
+						<circle cx="7" cy="9" r="0.8"> </circle>
+						<circle cx="7" cy="15" r="0.8"> </circle>
+						<path d="M10 9h7"> </path>
+						<path d="M10 15h7"> </path>
+					</svg> <span class="label">
+                        Amenities Management
+                    </span> </a>
+				<a class="nav-item" href="features.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M4 6h16"> </path>
+						<path d="M4 12h16"> </path>
+						<path d="M4 18h16"> </path>
+						<circle cx="7" cy="6" r="1"> </circle>
+						<circle cx="7" cy="12" r="1"> </circle>
+						<circle cx="7" cy="18" r="1"> </circle>
+					</svg> <span class="label">
+                        Features Management
+                    </span> </a>
+				<p class="nav-category01"> financial & billing </p>
+				<a class="nav-item" href="subscription.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="14" rx="2" width="20" x="2" y="5"> </rect>
+						<path d="M2 10h20"> </path>
+					</svg> <span class="label">
+                        Subscriptions & Plans
+                    </span> </a>
+				<a class="nav-item" href="transcation.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<rect height="12" rx="2" width="18" x="3" y="6"> </rect>
+						<circle cx="12" cy="12" r="2.5"> </circle>
+						<path d="M6 9c.8 0 1.5-.7 1.5-1.5"> </path>
+						<path d="M18 9c-.8 0-1.5-.7-1.5-1.5"> </path>
+						<path d="M6 15c.8 0 1.5.7 1.5 1.5"> </path>
+						<path d="M18 15c-.8 0-1.5.7-1.5 1.5"> </path>
+					</svg> <span class="label">
+                        Transactions
+                    </span> </a>
+				<a class="nav-item" href="invoice.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+						<polyline points="14 2 14 8 20 8"> </polyline>
+						<path d="M9 13h6M9 17h6"> </path>
+					</svg> <span class="label">
+                        Invoices Management
+                    </span> </a>
+				<a class="nav-item" href="payout.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<!-- Dollar -->
+						<circle cx="18" cy="6" r="3"> </circle>
+						<path d="M18 4.5v3"> </path>
+						<path d="M17 5.5c0-.6.5-1 1-1s1 .4 1 1-.5 1-1 1-.9.3-.9.9.4 1.1.9 1.1 1-.4 1-1"> </path>
+						<!-- Hand -->
+						<path d="M2 15h5l2 2h5.5c1.4 0 2.5-1.1 2.5-2.5S16.4 12 15 12h-4"> </path>
+						<path d="M2 15v4h7l2-1h5c2.2 0 4-1.8 4-4"> </path>
+					</svg> <span class="label">
+                        Payouts
+                    </span> </a>
+				<p class="nav-category01">REPORTS & ANALYTICS</p>
+				<a href="reports.html" class="nav-item active">
+					<svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M3 11l18-5v14L3 15v-4Z" />
+						<path d="M11.6 16.8 9 21H7l1.5-4.6" /> </svg> <span class="label">Reports Dashboard</span> </a>
+				<a href="analytics.html" class="nav-item">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="12" cy="12" r="9" />
+						<path d="M9 7l3 5" />
+						<path d="M15 7l-3 5" />
+						<path d="M12 12v5" /> </svg> <span class="label">Analytics Overview</span> </a>
+				<a href="custom_report.html" class="nav-item">
+					<svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<rect x="3" y="3" width="18" height="18" rx="2" />
+						<path d="M8 17V11M12 17V7M16 17v-4" /> </svg> <span class="label">Custom Reports</span> </a>
+				<p class="nav-category01"> system </p>
+				<a class="nav-item" href="system.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<circle cx="12" cy="12" r="3"> </circle>
+						<path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"> </path>
+					</svg> <span class="label">
+                        System Settings
+                    </span> </a>
+				<a class="nav-item" href="activity.html">
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M4 4v16h16"> </path>
+						<path d="M7 15l4-4 3 2 4-5"> </path>
+						<circle cx="7" cy="15" r="0.7"> </circle>
+						<circle cx="11" cy="11" r="0.7"> </circle>
+						<circle cx="14" cy="13" r="0.7"> </circle>
+						<circle cx="18" cy="8" r="0.7"> </circle>
+					</svg> <span class="label">
+                        Activity Logs
+                    </span> </a>
+				<a class="nav-item" href="audit.html">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+						<polyline points="14 2 14 8 20 8"> </polyline>
+						<path d="M9 13h6M9 17h3"> </path>
+					</svg> <span class="label">
+                        Audit Logs
+                    </span> </a>
+			</nav>
+			<div class="sidebar-footer d-lg-block d-none">
+				<!-- <div class="status-box">
+          <div class="d-flex flex-row">
+            <i class="fa-solid fa-headphones nav-icons">
+            </i>
+            <div>
+              <p class="nav-paragraph-01">
+                Need Help?
+              </p>
+              <p class="nav-paragraph-02">
+                Our support team is here to help you.
+              </p>
+            </div>
+          </div>
+          <button class="nav-contact-support-btn" type="btn">
+            Contact Support
+          </button>
+        </div>
+        -->
+				<div class="footer-meta"> <strong>
+                        BAYTAC v2.0.0
+                    </strong>
+					<br /> © 2026 BAYTAC. All rights reserved. </div>
+			</div>
+		</aside>
+		<div class="sidebar-overlay" id="overlay"> </div>
+		<div class="main">
+			<header class="topbar">
+				<button aria-label="Toggle menu" class="menu-toggle" id="menuToggle">
+					<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<path d="M3 6h18M3 12h18M3 18h18"> </path>
+					</svg>
+				</button>
+				<div class="search-box">
+					<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+						<circle cx="11" cy="11" r="7"> </circle>
+						<path d="m21 21-4.3-4.3"> </path>
+					</svg>
+					<input class="in" id="searchInput" placeholder="Search anything... (e.g. users, properties, invoices)" type="text" /> <span class="kbd" id="clearSearch">
+                        ⌘K
+                    </span> </div>
+				<div class="topbar-right">
+					<div class="country-select">
+						<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+							<circle cx="12" cy="12" r="9"> </circle>
+							<path d="M3 12h18"> </path>
+							<path d="M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9Z"> </path>
+						</svg> <span class="label-text">
+                            All Countries
+                        </span>
+						<svg class="chev" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+							<polyline points="6 9 12 15 18 9"> </polyline>
+						</svg>
+						<select class="country-dropdown">
+							<option> All Countries </option>
+							<option> India </option>
+							<option> United States </option>
+							<option> United Kingdom </option>
+							<option> Australia </option>
+							<option> Canada </option>
+						</select>
+					</div>
+					<button aria-label="Notifications" class="icon-btns">
+						<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+							<path d="M6 8a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"> </path>
+							<path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"> </path>
+						</svg> <span class="dot-badge">
+                            0
+                        </span> </button>
+					<button aria-label="Messages" class="icon-btns">
+						<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+							<path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"> </path>
+						</svg> <span class="dot-badge">
+                            6
+                        </span> </button>
+					<button aria-label="Toggle theme" class="icon-btns">
+						<svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+							<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"> </path>
+						</svg>
+					</button>
+					<div class="divider-v"> </div>
+					<div class="user-dropdown">
+						<div class="user-block" id="userToggle"> <img alt="avatar" class="avatar-image" loading="lazy" src="../assets01/images/a01.png" />
+							<div class="user-info user-info02"> <span class="name">
+                                    Super Admin
+                                </span> <span class="email">
+                                    superadmin@baytac.com
+                                </span> </div>
+							<svg class="chev" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+								<polyline points="6 9 12 15 18 9"> </polyline>
+							</svg>
+						</div>
+						<div class="user-menu" id="userMenu">
+							<a href="#"> <i class="fas fa-user">
+                                </i> My Profile </a>
+							<a href="#"> <i class="fas fa-cog">
+                                </i> Settings </a>
+							<a href="#"> <i class="fas fa-lock">
+                                </i> Change Password </a>
+							<hr />
+							<a class="logout" href="#"> <i class="fas fa-sign-out-alt">
+                                </i> Logout </a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="content">
+				<div class="d-flex flex-row justify-content-between flex-wrap mb-3">
+					<div>
+						<h3 class="admin-heading01">
+                            Reports Dashboard
+                        </h3>
+						<p class="admin-paragraph01"> Comprehensive overview and analytics of the entire BAYTAC platform. </p>
+					</div>
+					<div class="button-group">
+						<div class="date-range">
+							<div class="box"> <span id="dateText">
+                                    May 12, 2025 – Jun 11, 2025
+                                </span>
+								<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+									<rect height="18" rx="2" width="18" x="3" y="4"> </rect>
+									<path d="M16 2v4M8 2v4M3 10h18"> </path>
+								</svg>
+								<input id="dateRange" type="text" /> </div>
+						</div>
+						<button class="action-btn add-btn mt-2"> <i class="fa-solid fa-plus"></i> Export Report </button>
+						<button class="action-btn mt-2"> <i class="fa-solid fa-gear"></i> </button>
+					</div>
+				</div>
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01 active" id="pills-home-tab10" data-bs-toggle="pill" data-bs-target="#pills-home10" type="button" role="tab" aria-controls="pills-home10" aria-selected="true">Overview</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab10" data-bs-toggle="pill" data-bs-target="#pills-profile10" type="button" role="tab" aria-controls="pills-profile10" aria-selected="false">Users</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab11" data-bs-toggle="pill" data-bs-target="#pills-profile11" type="button" role="tab" aria-controls="pills-profile11" aria-selected="false">Listings & Properties</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab12" data-bs-toggle="pill" data-bs-target="#pills-profile12" type="button" role="tab" aria-controls="pills-profile12" aria-selected="false">Financial</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab13" data-bs-toggle="pill" data-bs-target="#pills-profile13" type="button" role="tab" aria-controls="pills-profile13" aria-selected="false">Leads & Inquiries</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab14" data-bs-toggle="pill" data-bs-target="#pills-profile14" type="button" role="tab" aria-controls="pills-profile14" aria-selected="false">Subscriptions</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab15" data-bs-toggle="pill" data-bs-target="#pills-profile15" type="button" role="tab" aria-controls="pills-profile15" aria-selected="false">Marketplace</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab16" data-bs-toggle="pill" data-bs-target="#pills-profile16" type="button" role="tab" aria-controls="pills-profile16" aria-selected="false">Content</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab17" data-bs-toggle="pill" data-bs-target="#pills-profile17" type="button" role="tab" aria-controls="pills-profile17" aria-selected="false">Activity</button>
+					</li>
+					<li class="nav-item nav-item01 nav-link01" role="presentation">
+						<button class="nav-link nav-link01" id="pills-profile-tab18" data-bs-toggle="pill" data-bs-target="#pills-profile18" type="button" role="tab" aria-controls="pills-profile18" aria-selected="false">Custom Reports</button>
+					</li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-home10" role="tabpanel" aria-labelledby="pills-home-tab10" tabindex="0">
+						<div class="d-flex flex-row justify-content-between flex-wrap mb-3">
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Total Revenue (AED)</p>
+										<h5 class="admin-heading02">2,450,850</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 24.6%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-dollar-sign admin-user-icon-02"></i> </div>
+									</div>
+								</div>
+							</div>
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Total Users</p>
+										<h5 class="admin-heading02">18,924</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 18.7%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-04 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-user-group admin-user-icon-04"></i> </div>
+									</div>
+								</div>
+							</div>
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Total Properties</p>
+										<h5 class="admin-heading02">12,842</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 12.3%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-03 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-building admin-user-icon-03"></i> </div>
+									</div>
+								</div>
+							</div>
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Active Agents</p>
+										<h5 class="admin-heading02">3,421</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 15.9%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-user-check admin-user-icon-05"></i> </div>
+									</div>
+								</div>
+							</div>
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Total Leads</p>
+										<h5 class="admin-heading02">6,752</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 21.4%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-circle-dot admin-user-icon-02"></i> </div>
+									</div>
+								</div>
+							</div>
+							<div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="admin-paragraph02">Conversion Rate</p>
+										<h5 class="admin-heading02">3.28%</h5>
+										<p class="increase-arrow"><i class="fa-solid fa-arrow-up me-1"></i> 13.4%</p>
+										<p class="admin-paragraph03">vs Apr 12 - May 11</p>
+									</div>
+									<div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-clock admin-user-icon-05"></i> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<h6 class="admin-heading03">Platform Overview</h6>
+										<p class="admin-paragraph01"> Total Revenue vs Previous Period </p>
+									</div>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Daily </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Weekly</a></li>
+											<li><a class="dropdown-item" href="#">Monthly</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="d-flex flex-row mb-3">
+									<div class="d-flex flex-row me-2">
+										<div class="rec-box-01"></div>
+										<p class="rec-box-span">Current Period</p>
+									</div>
+									<div class="d-flex flex-row">
+										<div class="rec-box-02"></div>
+										<p class="rec-box-span">Previous Period</p>
+									</div>
+								</div>
+								<div class="report_graph">
+									<svg class="report_graph__svg" viewBox="0 0 545 202" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+										<!-- gridlines -->
+										<line class="report_graph__gridline" x1="0" y1="12" x2="545" y2="12" />
+										<line class="report_graph__gridline" x1="0" y1="49" x2="545" y2="49" />
+										<line class="report_graph__gridline" x1="0" y1="86" x2="545" y2="86" />
+										<line class="report_graph__gridline" x1="0" y1="124" x2="545" y2="124" />
+										<line class="report_graph__gridline" x1="0" y1="160" x2="545" y2="160" />
+										<!-- y-axis labels -->
+										<text class="report_graph__axis-label report_graph__axis-label--y" x="2" y="10">800K</text>
+										<text class="report_graph__axis-label report_graph__axis-label--y" x="2" y="47">600K</text>
+										<text class="report_graph__axis-label report_graph__axis-label--y" x="2" y="84">400K</text>
+										<text class="report_graph__axis-label report_graph__axis-label--y" x="2" y="122">200K</text>
+										<text class="report_graph__axis-label report_graph__axis-label--y" x="2" y="163">0</text>
+										<!-- x-axis labels -->
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="88.5" y="194">May 12</text>
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="192.6" y="194">May 19</text>
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="277.5" y="194">May 26</text>
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="354.2" y="194">Jun 02</text>
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="446.5" y="194">Jun 09</text>
+										<text class="report_graph__axis-label report_graph__axis-label--x" x="527.6" y="194">Jun 11</text>
+										<!-- secondary (gray) line -->
+										<polyline class="report_graph__line report_graph__line--secondary" points="
+      88.5,133.5 120.9,138 148.0,129 167.4,120.5 192.6,110.5 211.0,130 228.7,133.2
+      258.9,110 277.5,116.5 294.5,127.2 304.6,135 333.5,127.5 354.2,119.5 375.4,106.5
+      397.2,98.5 410.8,114.5 423.5,123.5 446.5,113.5 471.3,123.5 499.9,103.5 527.6,81.5
+    " />
+										<!-- primary (blue) line -->
+										<polyline class="report_graph__line report_graph__line--primary" points="
+      88.5,133.5 120.9,124.6 148.0,111.2 167.4,97.4 192.6,81.8 211.0,93.0 228.7,101.2
+      258.9,74.5 277.5,76.8 294.5,89.1 304.6,99.9 333.5,98.2 354.2,86.3 375.4,69.2
+      397.2,57.6 410.8,73.4 423.5,85.2 446.5,74.0 471.3,85.2 499.9,42.5 527.6,25.1
+    " />
+										<!-- secondary (gray) dots -->
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="88.5" cy="133.5" r="3" data-series="Baseline" data-date="May 12" data-value="145K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="120.9" cy="138" r="3" data-series="Baseline" data-date="May 14" data-value="120K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="148.0" cy="129" r="3" data-series="Baseline" data-date="May 16" data-value="165K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="167.4" cy="120.5" r="3" data-series="Baseline" data-date="May 17" data-value="215K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="192.6" cy="110.5" r="3" data-series="Baseline" data-date="May 19" data-value="265K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="211.0" cy="130" r="3" data-series="Baseline" data-date="May 21" data-value="160K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="228.7" cy="133.2" r="3" data-series="Baseline" data-date="May 23" data-value="145K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="258.9" cy="110" r="3" data-series="Baseline" data-date="May 24" data-value="270K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="277.5" cy="116.5" r="3" data-series="Baseline" data-date="May 26" data-value="235K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="294.5" cy="127.2" r="3" data-series="Baseline" data-date="May 28" data-value="175K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="304.6" cy="135" r="3" data-series="Baseline" data-date="May 30" data-value="135K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="333.5" cy="127.5" r="3" data-series="Baseline" data-date="May 31" data-value="175K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="354.2" cy="119.5" r="3" data-series="Baseline" data-date="Jun 02" data-value="220K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="375.4" cy="106.5" r="3" data-series="Baseline" data-date="Jun 03" data-value="290K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="397.2" cy="98.5" r="3" data-series="Baseline" data-date="Jun 05" data-value="330K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="410.8" cy="114.5" r="3" data-series="Baseline" data-date="Jun 06" data-value="245K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="423.5" cy="123.5" r="3" data-series="Baseline" data-date="Jun 08" data-value="195K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="446.5" cy="113.5" r="3" data-series="Baseline" data-date="Jun 09" data-value="250K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="471.3" cy="123.5" r="3" data-series="Baseline" data-date="Jun 10" data-value="195K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="499.9" cy="103.5" r="3" data-series="Baseline" data-date="Jun 10" data-value="305K" />
+										<circle class="report_graph__dot report_graph__dot--secondary" cx="527.6" cy="81.5" r="3" data-series="Baseline" data-date="Jun 11" data-value="425K" />
+										<!-- primary (blue) dots -->
+										<circle class="report_graph__dot report_graph__dot--primary" cx="88.5" cy="133.5" r="3" data-series="Current" data-date="May 12" data-value="145K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="120.9" cy="124.6" r="3" data-series="Current" data-date="May 14" data-value="190K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="148.0" cy="111.2" r="3" data-series="Current" data-date="May 16" data-value="265K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="167.4" cy="97.4" r="3" data-series="Current" data-date="May 17" data-value="340K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="192.6" cy="81.8" r="3" data-series="Current" data-date="May 19" data-value="420K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="211.0" cy="93.0" r="3" data-series="Current" data-date="May 21" data-value="360K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="228.7" cy="101.2" r="3" data-series="Current" data-date="May 23" data-value="320K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="258.9" cy="74.5" r="3" data-series="Current" data-date="May 24" data-value="460K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="277.5" cy="76.8" r="3" data-series="Current" data-date="May 26" data-value="450K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="294.5" cy="89.1" r="3" data-series="Current" data-date="May 28" data-value="385K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="304.6" cy="99.9" r="3" data-series="Current" data-date="May 30" data-value="325K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="333.5" cy="98.2" r="3" data-series="Current" data-date="May 31" data-value="335K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="354.2" cy="86.3" r="3" data-series="Current" data-date="Jun 02" data-value="400K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="375.4" cy="69.2" r="3" data-series="Current" data-date="Jun 03" data-value="490K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="397.2" cy="57.6" r="3" data-series="Current" data-date="Jun 05" data-value="555K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="410.8" cy="73.4" r="3" data-series="Current" data-date="Jun 06" data-value="470K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="423.5" cy="85.2" r="3" data-series="Current" data-date="Jun 08" data-value="405K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="446.5" cy="74.0" r="3" data-series="Current" data-date="Jun 09" data-value="465K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="471.3" cy="85.2" r="3" data-series="Current" data-date="Jun 10" data-value="405K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="499.9" cy="42.5" r="3" data-series="Current" data-date="Jun 10" data-value="635K" />
+										<circle class="report_graph__dot report_graph__dot--primary" cx="527.6" cy="25.1" r="3" data-series="Current" data-date="Jun 11" data-value="730K" /> </svg>
+									<div class="report_graph__tooltip" id="reportGraphTooltip">
+										<div class="report_graph__tooltip-value"></div>
+										<div class="report_graph__tooltip-date"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<h6 class="admin-heading03 pb-4">Revenue Breakdown</h6>
+								<div class="row">
+									<div class="col-12 col-lg-5 mb-2 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="chart-wrap">
+												<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+													<g style="transform-origin: 100px 100px; transform: rotate(-90deg);">
+														<!-- Purple 41.5% -->
+														<circle cx="100" cy="100" r="87" pathLength="100" fill="none" stroke-width="23" stroke="#7C3AED" stroke-dasharray="41.5 58.5" stroke-dashoffset="0"></circle>
+														<!-- Blue 25.3% -->
+														<circle cx="100" cy="100" r="87" pathLength="100" fill="none" stroke-width="23" stroke="#4C8AFE" stroke-dasharray="25.3 74.7" stroke-dashoffset="-41.5"></circle>
+														<!-- Yellow 17.1% -->
+														<circle cx="100" cy="100" r="87" pathLength="100" fill="none" stroke-width="23" stroke="#FDBC1A" stroke-dasharray="17.1 82.9" stroke-dashoffset="-66.8"></circle>
+														<!-- Red 10.2% -->
+														<circle cx="100" cy="100" r="87" pathLength="100" fill="none" stroke-width="23" stroke="#EF4444" stroke-dasharray="10.2 89.8" stroke-dashoffset="-83.9"></circle>
+														<!-- Gray 5.8% -->
+														<circle cx="100" cy="100" r="87" pathLength="100" fill="none" stroke-width="23" stroke="#9FA9C7" stroke-dasharray="5.8 94.2" stroke-dashoffset="-94.1"></circle>
+													</g>
+												</svg>
+												<div class="donut-center">
+													<div class="total-number">2.45M</div>
+													<div class="total-label">AED</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-7 d-flex flex-column justify-content-center">
+										<div class="d-flex flex-row justify-content-between">
+											<p class="donut01"><i class="fa-solid fa-circle dot01"></i> Subscriptions</p>
+											<p class="donut01"> 1,000,000(41.5%)</p>
+										</div>
+										<div class="d-flex flex-row justify-content-between">
+											<p class="donut01"><i class="fa-solid fa-circle dot02"></i> Featured Listings</p>
+											<p class="donut01"> 6,20,000(25.3%)</p>
+										</div>
+										<div class="d-flex flex-row justify-content-between">
+											<p class="donut01"><i class="fa-solid fa-circle dot05"></i> Lead Packages</p>
+											<p class="donut01"> 4,20,000(17.1%)</p>
+										</div>
+										<div class="d-flex flex-row justify-content-between">
+											<p class="donut01"><i class="fa-solid fa-circle dot07"></i> Promotions & Ads</p>
+											<p class="donut01"> 2,50,000(10.2%)</p>
+										</div>
+										<div class="d-flex flex-row justify-content-between">
+											<p class="donut01"><i class="fa-solid fa-circle dot08"></i> Other Income</p>
+											<p class="donut01"> 1,40,650(5.8%)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<h6 class="admin-heading03">Top Perfroming Countries</h6>
+										<p class="admin-paragraph01"> By Revenue </p>
+									</div>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> By Revenue </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">By Sales</a></li>
+											<li><a class="dropdown-item" href="#">By Users</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="d-flex flex-row justify-content-between">
+									<div class="d-flex flex-row"> <img src="../assets01/images/uae_flag.png" class="country_flag" alt="flag-image" loading="lazy">
+										<p class="country-name">United Arab Emirates</p>
+									</div>
+									<p class="country-name">1,245,650 AED</p>
+								</div>
+								<div class="line02 mb-2"></div>
+								<div class="d-flex flex-row justify-content-between">
+									<div class="d-flex flex-row"> <img src="../assets01/images/ksa.webp" class="country_flag" alt="flag-image" loading="lazy">
+										<p class="country-name">Saudi Arabia</p>
+									</div>
+									<p class="country-name">4,50,320 AED</p>
+								</div>
+								<div class="line02 mb-2"></div>
+								<div class="d-flex flex-row justify-content-between">
+									<div class="d-flex flex-row"> <img src="../assets01/images/qatar.webp" class="country_flag" alt="flag-image" loading="lazy">
+										<p class="country-name">Qatar</p>
+									</div>
+									<p class="country-name">2,80,640 AED</p>
+								</div>
+								<div class="line02 mb-2"></div>
+								<div class="d-flex flex-row justify-content-between">
+									<div class="d-flex flex-row"> <img src="../assets01/images/kuwait.jpg" class="country_flag" alt="flag-image" loading="lazy">
+										<p class="country-name">Kuwait</p>
+									</div>
+									<p class="country-name">2,10,230 AED</p>
+								</div>
+								<div class="line02 mb-2"></div>
+								<div class="d-flex flex-row justify-content-between">
+									<div class="d-flex flex-row"> <img src="../assets01/images/oman.webp" class="country_flag" alt="flag-image" loading="lazy">
+										<p class="country-name">Oman</p>
+									</div>
+									<p class="country-name">1,30,960 AED</p>
+								</div>
+								<button class="view-role-btn" type="btn"> View all countries</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<h6 class="admin-heading03">User Growth</h6>
+										<p class="admin-paragraph01"> New Users vs Previous Period </p>
+									</div>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Daily </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Weekly</a></li>
+											<li><a class="dropdown-item" href="#">Monthly</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="d-flex flex-row mb-1">
+									<div class="d-flex flex-row me-2">
+										<div class="rec-box-01"></div>
+										<p class="rec-box-span">Current Period</p>
+									</div>
+									<div class="d-flex flex-row">
+										<div class="rec-box-02"></div>
+										<p class="rec-box-span">Previous Period</p>
+									</div>
+								</div>
+								<div class="report_bar_graph">
+									<svg class="report_bar_graph__svg" viewBox="0 0 476 245" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+										<defs>
+											<linearGradient id="reportBarGraphBlueGradient" x1="0" y1="0" x2="0" y2="1">
+												<stop offset="0%" stop-color="#4A1DE6" />
+												<stop offset="100%" stop-color="#C7B9F5" /> </linearGradient>
+										</defs>
+										<!-- gridlines -->
+										<line class="report_bar_graph__gridline" x1="0" y1="15" x2="476" y2="15" />
+										<line class="report_bar_graph__gridline" x1="0" y1="61" x2="476" y2="61" />
+										<line class="report_bar_graph__gridline" x1="0" y1="108" x2="476" y2="108" />
+										<line class="report_bar_graph__gridline" x1="0" y1="155.5" x2="476" y2="155.5" />
+										<line class="report_bar_graph__gridline" x1="0" y1="207" x2="476" y2="207" />
+										<!-- y-axis labels -->
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--y" x="2" y="18">4K</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--y" x="2" y="64">3K</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--y" x="2" y="111">2K</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--y" x="2" y="158.5">1K</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--y" x="2" y="210">0</text>
+										<!-- x-axis labels -->
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="91" y="228">May 12</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="164" y="228">May 19</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="237.5" y="228">May 26</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="310" y="228">Jun 02</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="376.5" y="228">Jun 09</text>
+										<text class="report_bar_graph__axis-label report_bar_graph__axis-label--x" x="444" y="228">Jun 11</text>
+										<!-- May 12 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="70" y="155.3" width="13" height="51.7" rx="3" ry="3" data-date="May 12" data-series="Series A" data-value="1,100" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="85" y="110.7" width="13" height="96.3" rx="3" ry="3" data-date="May 12" data-series="Series B" data-value="2,050" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="100" y="82.5" width="13" height="124.5" rx="3" ry="3" data-date="May 12" data-series="Series C" data-value="2,650" />
+										<!-- May 19 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="142" y="110.7" width="13" height="96.3" rx="3" ry="3" data-date="May 19" data-series="Series A" data-value="2,050" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="157" y="54.2" width="13" height="152.8" rx="3" ry="3" data-date="May 19" data-series="Series B" data-value="3,250" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="172" y="91.8" width="13" height="115.2" rx="3" ry="3" data-date="May 19" data-series="Series C" data-value="2,450" />
+										<!-- May 26 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="216" y="108.3" width="13" height="98.7" rx="3" ry="3" data-date="May 26" data-series="Series A" data-value="2,100" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="231" y="143.6" width="13" height="63.5" rx="3" ry="3" data-date="May 26" data-series="Series B" data-value="1,350" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="246" y="80.1" width="13" height="126.9" rx="3" ry="3" data-date="May 26" data-series="Series C" data-value="2,700" />
+										<!-- Jun 02 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="290" y="103.6" width="13" height="103.4" rx="3" ry="3" data-date="Jun 02" data-series="Series A" data-value="2,200" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="305" y="54.2" width="13" height="152.8" rx="3" ry="3" data-date="Jun 02" data-series="Series B" data-value="3,250" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="320" y="91.8" width="13" height="115.2" rx="3" ry="3" data-date="Jun 02" data-series="Series C" data-value="2,450" />
+										<!-- Jun 09 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="356" y="120.0" width="13" height="87.0" rx="3" ry="3" data-date="Jun 09" data-series="Series A" data-value="1,850" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="371" y="80.1" width="13" height="126.9" rx="3" ry="3" data-date="Jun 09" data-series="Series B" data-value="2,700" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="386" y="51.9" width="13" height="155.1" rx="3" ry="3" data-date="Jun 09" data-series="Series C" data-value="3,300" />
+										<!-- Jun 11 -->
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="423" y="110.7" width="13" height="96.3" rx="3" ry="3" data-date="Jun 11" data-series="Series A" data-value="2,050" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--primary" x="438" y="63.7" width="13" height="143.3" rx="3" ry="3" data-date="Jun 11" data-series="Series B" data-value="3,050" />
+										<rect class="report_bar_graph__bar report_bar_graph__bar--secondary" x="453" y="40.2" width="13" height="166.8" rx="3" ry="3" data-date="Jun 11" data-series="Series C" data-value="3,550" /> </svg>
+									<div class="report_bar_graph__tooltip" id="reportBarGraphTooltip">
+										<div class="report_bar_graph__tooltip-value"></div>
+										<div class="report_bar_graph__tooltip-date"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<h6 class="admin-heading03">Leads & Inquiries</h6>
+										<p class="admin-paragraph01"> Total Leads and Conversion rate </p>
+									</div>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Previous Month</a></li>
+											<li><a class="dropdown-item" href="#">02 Months ago</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 col-md-4">
+										<div>
+											<p class="admin-paragraph13">Total Leads</p>
+											<h5 class="admin-heading05">6,752</h5>
+											<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 21.4%</p>
+										</div>
+									</div>
+									<div class="col-12 col-md-4">
+										<div>
+											<p class="admin-paragraph13">Converted Leads</p>
+											<h5 class="admin-heading05">222</h5>
+											<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 25.8%</p>
+										</div>
+									</div>
+									<div class="col-12 col-md-4">
+										<div>
+											<p class="admin-paragraph13">Conversion Rate</p>
+											<h5 class="admin-heading05">3.28%</h5>
+											<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 0.74%</p>
+										</div>
+									</div>
+								</div>
+								<div class="d-flex flex-row justify-content-center">
+									<div class="report_invert_graph">
+										<svg class="report_invert_graph__svg" viewBox="0 0 426 210" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+											<defs>
+												<linearGradient id="reportInvertGraphGrad1" x1="0" y1="0" x2="0" y2="1">
+													<stop offset="0%" stop-color="#522AE9" />
+													<stop offset="100%" stop-color="#7E5CEE" /> </linearGradient>
+											</defs>
+											<!-- Funnel segments -->
+											<polygon class="report_invert_graph__segment" points="12,23 270,23 242.3,66 39.7,66" fill="url(#reportInvertGraphGrad1)" />
+											<polygon class="report_invert_graph__segment" points="41,68 241,68 214.6,109 67.4,109" fill="#B6A0F7" />
+											<polygon class="report_invert_graph__segment" points="68.7,111 213.3,111 186.9,152 95.1,152" fill="#CEBFFA" />
+											<polygon class="report_invert_graph__segment" points="96.4,154 185.6,154 158.5,196 123.5,196" fill="#DCCFFD" />
+											<!-- In-funnel labels -->
+											<text class="report_invert_graph__segment-label" x="141" y="45">New Leads</text>
+											<text class="report_invert_graph__segment-label" x="141" y="89">Contacted</text>
+											<!-- Arrow lines -->
+											<line class="report_invert_graph__arrow-line" x1="286" y1="33.5" x2="259" y2="33.5" />
+											<polygon class="report_invert_graph__arrow-head" points="259,33.5 264,31 264,36" />
+											<line class="report_invert_graph__arrow-line" x1="286" y1="86.75" x2="230" y2="86.75" />
+											<polygon class="report_invert_graph__arrow-head" points="230,86.75 235,84.25 235,89.25" />
+											<line class="report_invert_graph__arrow-line" x1="286" y1="131.75" x2="203" y2="131.75" />
+											<polygon class="report_invert_graph__arrow-head" points="203,131.75 208,129.25 208,134.25" />
+											<line class="report_invert_graph__arrow-line" x1="286" y1="177.5" x2="175" y2="177.5" />
+											<polygon class="report_invert_graph__arrow-head" points="175,177.5 180,175 180,180" />
+											<!-- Right-side labels -->
+											<text class="report_invert_graph__label-title" x="290" y="37">New Leads</text>
+											<text class="report_invert_graph__label-value" x="290" y="54">6,752 (100%)</text>
+											<text class="report_invert_graph__label-title" x="290" y="82">Contacted</text>
+											<text class="report_invert_graph__label-value" x="290" y="99">1,945 (28.9%)</text>
+											<text class="report_invert_graph__label-title" x="290" y="127">Qualified</text>
+											<text class="report_invert_graph__label-value" x="290" y="144">842 (12.9%)</text>
+											<text class="report_invert_graph__label-title" x="290" y="173">Converted</text>
+											<text class="report_invert_graph__label-value" x="290" y="190">222 (3.28%)</text>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<h6 class="admin-heading03">Property Views</h6>
+										<p class="admin-paragraph01"> Total property views </p>
+									</div>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Previous Month</a></li>
+											<li><a class="dropdown-item" href="#">02 Months ago</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 col-sm-12 col-md-6">
+										<div>
+											<p class="admin-paragraph13">Total Views</p>
+											<h5 class="admin-heading05">2,58,954</h5>
+											<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 16.8%</p>
+										</div>
+									</div>
+									<div class="col-6 col-sm-12 col-md-6">
+										<div>
+											<p class="admin-paragraph13">Unique Views</p>
+											<h5 class="admin-heading05">1,28,420</h5>
+											<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 14.2%</p>
+										</div>
+									</div>
+								</div>
+								<div class="report_chart_graph_01">
+									<div class="rcg01_tooltip" id="rcg01_tooltip"> <span class="rcg01_tooltip_date" id="rcg01_tooltip_date"></span> <span class="rcg01_tooltip_value" id="rcg01_tooltip_value"></span> </div>
+									<svg viewBox="0 0 456 207" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart from May 12 to June 11 rising from about 15K to about 55K with fluctuations" id="rcg01_svg">
+										<defs>
+											<linearGradient id="rcg01_areaFill" x1="0" y1="0" x2="0" y2="1">
+												<stop offset="0%" stop-color="#8f7ae8" stop-opacity="0.55"></stop>
+												<stop offset="55%" stop-color="#c9bdf5" stop-opacity="0.25"></stop>
+												<stop offset="100%" stop-color="#ffffff" stop-opacity="0"></stop>
+											</linearGradient>
+										</defs>
+										<text x="26" y="30" text-anchor="end" font-size="13" fill="#7a7a7a">60K</text>
+										<text x="26" y="74.5" text-anchor="end" font-size="13" fill="#7a7a7a">40K</text>
+										<text x="26" y="119" text-anchor="end" font-size="13" fill="#7a7a7a">20K</text>
+										<text x="26" y="162.5" text-anchor="end" font-size="13" fill="#7a7a7a">0</text>
+										<text x="58.5" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">May 12</text>
+										<text x="132" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">May 19</text>
+										<text x="208.5" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">May 26</text>
+										<text x="279" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">Jun 02</text>
+										<text x="351" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">Jun 09</text>
+										<text x="420.5" y="182" text-anchor="middle" font-size="13" fill="#7a7a7a">Jun 11</text>
+										<path d="M52,128 L71,129 L77,113 L100,96 L118,85 L145,120.7 L173,79.3 L195,103.7 L215,120.7 L240,103 L253,112 L280,83 L299,68 L328,100.7 L346,87 L369,107 L384,55.3 L422,39 L422,159.5 L52,159.5 Z" fill="url(#rcg01_areaFill)"></path>
+										<path d="M52,128 L71,129 L77,113 L100,96 L118,85 L145,120.7 L173,79.3 L195,103.7 L215,120.7 L240,103 L253,112 L280,83 L299,68 L328,100.7 L346,87 L369,107 L384,55.3 L422,39" fill="none" stroke="#3300E0" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"></path>
+										<g fill="#3300E0">
+											<circle class="rcg01_dot" cx="52" cy="128" r="2.6" data-date="May 12" data-value="14.5K"></circle>
+											<circle class="rcg01_dot" cx="71" cy="129" r="2.6" data-date="May 13" data-value="14K"></circle>
+											<circle class="rcg01_dot" cx="77" cy="113" r="2.6" data-date="May 14" data-value="21.4K"></circle>
+											<circle class="rcg01_dot" cx="100" cy="96" r="2.6" data-date="May 16" data-value="29.2K"></circle>
+											<circle class="rcg01_dot" cx="118" cy="85" r="2.6" data-date="May 18" data-value="34.3K"></circle>
+											<circle class="rcg01_dot" cx="145" cy="120.7" r="2.6" data-date="May 20" data-value="17.8K"></circle>
+											<circle class="rcg01_dot" cx="173" cy="79.3" r="2.6" data-date="May 22" data-value="36.9K"></circle>
+											<circle class="rcg01_dot" cx="195" cy="103.7" r="2.6" data-date="May 24" data-value="25.7K"></circle>
+											<circle class="rcg01_dot" cx="215" cy="120.7" r="2.6" data-date="May 26" data-value="17.8K"></circle>
+											<circle class="rcg01_dot" cx="240" cy="103" r="2.6" data-date="May 28" data-value="26K"></circle>
+											<circle class="rcg01_dot" cx="253" cy="112" r="2.6" data-date="May 29" data-value="21.8K"></circle>
+											<circle class="rcg01_dot" cx="280" cy="83" r="2.6" data-date="May 31" data-value="35.2K"></circle>
+											<circle class="rcg01_dot" cx="299" cy="68" r="2.6" data-date="Jun 02" data-value="42.1K"></circle>
+											<circle class="rcg01_dot" cx="328" cy="100.7" r="2.6" data-date="Jun 05" data-value="27K"></circle>
+											<circle class="rcg01_dot" cx="346" cy="87" r="2.6" data-date="Jun 07" data-value="33.3K"></circle>
+											<circle class="rcg01_dot" cx="369" cy="107" r="2.6" data-date="Jun 09" data-value="24.1K"></circle>
+											<circle class="rcg01_dot" cx="384" cy="55.3" r="2.6" data-date="Jun 10" data-value="47.9K"></circle>
+											<circle class="rcg01_dot" cx="422" cy="39" r="2.6" data-date="Jun 11" data-value="55.4K"></circle>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex flex-row justify-content-between flex-wrap">
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Active Subscriptions</p>
+									<h5 class="admin-heading05">2,842</h5>
+									<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 15.2%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-03 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-file-zipper admin-user-icon-03"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Pending Payments</p>
+									<h5 class="admin-heading05">24</h5>
+									<p class="decrease-arrow_01"><i class="fa-solid fa-arrow-down me-1"></i> 14.3%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-clock admin-user-icon-05"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Overdue Invoices</p>
+									<h5 class="admin-heading05">18</h5>
+									<p class="decrease-arrow_01"><i class="fa-solid fa-arrow-down me-1"></i> 18.2%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-file admin-user-icon-05"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Pending Approvals</p>
+									<h5 class="admin-heading05">128</h5>
+									<p class="decrease-arrow_01"><i class="fa-solid fa-arrow-down me-1"></i> 5.7%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-04 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-file-pen admin-user-icon-04"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Active Listings</p>
+									<h5 class="admin-heading05">7,842</h5>
+									<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 20.6%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-list admin-user-icon-02"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Featured Listings</p>
+									<h5 class="admin-heading05">642</h5>
+									<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 22.1%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-list-ul admin-user-icon-02"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Published Projects</p>
+									<h5 class="admin-heading05">215</h5>
+									<p class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 12.4%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-list admin-user-icon-02"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-box-container_01 pt-3 pb-2 mb-2">
+						<div class="container-fluid">
+							<div class="d-flex flex-row justify-content-between">
+								<div>
+									<p class="admin-paragraph13">Supported Tickets</p>
+									<h5 class="admin-heading05">56</h5>
+									<p class="decrease-arrow_01"><i class="fa-solid fa-arrow-down me-1"></i> 5.4%</p> <a href="#" class="vr_01">
+                                            View Report
+                                        </a> </div>
+								<div class="admin-icon-container-03 d-flex flex-column justify-content-center">
+									<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-ticket admin-user-icon-07"></i> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<h6 class="admin-heading03">Top Revenue Generating Items</h6>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Previous Month</a></li>
+											<li><a class="dropdown-item" href="#">02 Months ago</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="table-scroll mt-2">
+									<table>
+										<thead>
+											<tr>
+												<th> Item </th>
+												<th> Type </th>
+												<th> Revenue (AED) </th>
+												<th> % of Total </th>
+												<th> Trend </th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr data-agency="Professional Plan" data-id="Subscription">
+												<td class="user-id">
+													<div class="user-id-02"> Professional Plan (Agents) </div>
+												</td>
+												<td>
+													<div class="user-id-01"> <span class="badge06">Subscription</span> </div>
+												</td>
+												<td class="join-date">6,20,000</td>
+												<td class="join-date">25.3%</td>
+												<td class="join-date">
+													<div class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 18.7%</div>
+												</td>
+											</tr>
+											<tr data-agency="Premium Featured Listing" data-id="Featured Listing">
+												<td class="user-id">
+													<div class="user-id-02"> Premium Featured Listing </div>
+												</td>
+												<td>
+													<div class="user-id-01"> <span class="badge04">Featured Listing</span> </div>
+												</td>
+												<td class="join-date">4,20,000</td>
+												<td class="join-date">17.1%</td>
+												<td class="join-date">
+													<div class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 21.3%</div>
+												</td>
+											</tr>
+											<tr data-agency="Lead Package" data-id="Lead Package">
+												<td class="user-id">
+													<div class="user-id-02"> Lead Package (50 Leads) </div>
+												</td>
+												<td>
+													<div class="user-id-01"> <span class="badge06">Lead Package</span> </div>
+												</td>
+												<td class="join-date">3,50,000</td>
+												<td class="join-date">14.3%</td>
+												<td class="join-date">
+													<div class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 16.9%</div>
+												</td>
+											</tr>
+											<tr data-agency="Enterprise Plan" data-id="Subscription">
+												<td class="user-id">
+													<div class="user-id-02"> Enterprise Plan (Agencies) </div>
+												</td>
+												<td>
+													<div class="user-id-01"> <span class="badge06">Subscription</span> </div>
+												</td>
+												<td class="join-date">2,60,000</td>
+												<td class="join-date">10.6%</td>
+												<td class="join-date">
+													<div class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 12.4%</div>
+												</td>
+											</tr>
+											<tr data-agency="Homepage Banner Ad" data-id="Promotions">
+												<td class="user-id">
+													<div class="user-id-02"> Homepage Banner Ad </div>
+												</td>
+												<td>
+													<div class="user-id-01"> <span class="badge06">Promotions</span> </div>
+												</td>
+												<td class="join-date">2,10,000</td>
+												<td class="join-date">8.6%</td>
+												<td class="join-date">
+													<div class="increase-arrow_01"><i class="fa-solid fa-arrow-up me-1"></i> 9.5%</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<button class="view-role-btn mt-2" type="btn"> View full report</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between mb-3 pb-2">
+									<h6 class="admin-heading03">Recent Transactions</h6> <a href="#" class="ahref01">View All</a> </div>
+								<div class="table-scroll mt-2">
+									<table>
+										<thead>
+											<tr>
+												<th> Transaction ID </th>
+												<th> User/Company </th>
+												<th> Amount </th>
+												<th> Status </th>
+												<th> Date </th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr data-id="TX-2025-001245" data-agency="Michael Lewis">
+												<td class="user-id">
+													<div class="user-id-01"> TX-2025-001245 </div>
+												</td>
+												<td class="user-id">
+													<div class="user-id-01"> Michael Lewis </div>
+												</td>
+												<td class="join-date">499.00 AED</td>
+												<td>
+													<div class="user-id-01"> <span class="badge03">Completed</span> </div>
+												</td>
+												<td class="join-date">Jun 11, 2025</td>
+											</tr>
+											<tr data-id="TX-2025-001244" data-agency="Emaar Properties">
+												<td class="user-id">
+													<div class="user-id-01"> TX-2025-001244 </div>
+												</td>
+												<td class="user-id">
+													<div class="user-id-01"> Emaar Properties </div>
+												</td>
+												<td class="join-date">998.00 AED</td>
+												<td>
+													<div class="user-id-01"> <span class="badge03">Completed</span> </div>
+												</td>
+												<td class="join-date">Jun 11, 2025</td>
+											</tr>
+											<tr data-id="TX-2025-001243" data-agency="Ahmed Hassan">
+												<td class="user-id">
+													<div class="user-id-01"> TX-2025-001243 </div>
+												</td>
+												<td class="user-id">
+													<div class="user-id-01"> Ahmed Hassan </div>
+												</td>
+												<td class="join-date">199.00 AED</td>
+												<td>
+													<div class="user-id-01"> <span class="badge03">Completed</span> </div>
+												</td>
+												<td class="join-date">Jun 10, 2025</td>
+											</tr>
+											<tr data-id="TX-2025-001242" data-agency="Dubai Property Guide">
+												<td class="user-id">
+													<div class="user-id-01"> TX-2025-001242 </div>
+												</td>
+												<td class="user-id">
+													<div class="user-id-01"> Dubai Property Guide </div>
+												</td>
+												<td class="join-date">3,500.00 AED</td>
+												<td>
+													<div class="user-id-01"> <span class="badge03">Completed</span> </div>
+												</td>
+												<td class="join-date">Jun 10, 2025</td>
+											</tr>
+											<tr data-id="TX-2025-001241" data-agency="Sarah Johnson">
+												<td class="user-id">
+													<div class="user-id-01"> TX-2025-001241 </div>
+												</td>
+												<td class="user-id">
+													<div class="user-id-01"> Sarah Johnson </div>
+												</td>
+												<td class="join-date">15,750.00 AED</td>
+												<td>
+													<div class="user-id-01"> <span class="badge03">Completed</span> </div>
+												</td>
+												<td class="join-date">Jun 10, 2025</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<button class="view-role-btn mt-2" type="btn"> View all transactions</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4 mb-3">
+						<div class="admin-side-box pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between">
+									<h6 class="admin-heading03">Top Agents by Performance</h6>
+									<div class="dropdown">
+										<button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Previous Month</a></li>
+											<li><a class="dropdown-item" href="#">02 Months ago</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="table-scroll mt-2">
+									<table>
+										<thead>
+											<tr>
+												<th> Agent </th>
+												<th> Leads </th>
+												<th> Connections </th>
+												<th> Revenue (AED) </th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr data-agency="Michael Lewis">
+												<td>
+													<div class="user-cell"> <img class="avatar" src="../assets01/images/a01.png" alt="Johnathan Lee">
+														<div class="user-info"> <span class="user-name">Michael Lewis</span> </div>
+													</div>
+												</td>
+												<td class="join-date">245</td>
+												<td class="join-date">18</td>
+												<td class="join-date">85,750</td>
+											</tr>
+											<tr data-agency="Sarah Johnson">
+												<td>
+													<div class="user-cell"> <img class="avatar" src="../assets01/images/a03.png" alt="Johnathan Lee">
+														<div class="user-info"> <span class="user-name">Sarah Johnson</span> </div>
+													</div>
+												</td>
+												<td class="join-date">198</td>
+												<td class="join-date">15</td>
+												<td class="join-date">72,300</td>
+											</tr>
+											<tr data-agency="Ahmed Hassan">
+												<td>
+													<div class="user-cell"> <img class="avatar" src="../assets01/images/a05.png" alt="Johnathan Lee">
+														<div class="user-info"> <span class="user-name">Ahmed Hassan</span> </div>
+													</div>
+												</td>
+												<td class="join-date">198</td>
+												<td class="join-date">15</td>
+												<td class="join-date">72,300</td>
+											</tr>
+											<tr data-agency="Ahmed Hassan">
+												<td>
+													<div class="user-cell"> <img class="avatar" src="../assets01/images/as02.avif" alt="Johnathan Lee">
+														<div class="user-info"> <span class="user-name">Omar AL Mansoori</span> </div>
+													</div>
+												</td>
+												<td class="join-date">145</td>
+												<td class="join-date">10</td>
+												<td class="join-date">49,800</td>
+											</tr>
+											<tr data-agency="Ahmed Hassan">
+												<td>
+													<div class="user-cell"> <img class="avatar" src="../assets01/images/aa02.png" alt="Johnathan Lee">
+														<div class="user-info"> <span class="user-name">Fatima AL Zeebi</span> </div>
+													</div>
+												</td>
+												<td class="join-date">138</td>
+												<td class="join-date">9</td>
+												<td class="join-date">43,650</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<button class="view-role-btn mt-2" type="btn"> View full report</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-xl-9 mb-3">
+						<div class="admin-side-box-001 pt-3 pb-2">
+							<div class="container-fluid">
+								<div class="d-flex flex-row justify-content-between mb-2">
+									<h6 class="admin-heading03">Quick Report Actions</h6> <i class="fa-solid fa-xmark" style="cursor: pointer;"></i> </div>
+								<div class="d-flex flex-row justify-content-between flex-wrap">
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-01 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-user admin-icon-05"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">User Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-05 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-user-tie admin-icon-05"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Agent Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-04 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-building admin-icon-04"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Property Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-01 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-money-bill admin-icon-01"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Financial Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-03 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-clone admin-icon-03"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Lead Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-01 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-newspaper admin-icon-01"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Subscription Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-03 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-file admin-icon-03"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Transaction Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-04 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-file-lines admin-icon-04"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Invoice Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-05 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-credit-card admin-icon-05"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Payout Report</p>
+									</div>
+									<div class="invoice-box-01">
+										<div class="d-flex flex-row justify-content-center">
+											<div class="admin-color-box-01 d-flex flex-column justify-content-center mb-2">
+												<div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-gear admin-icon-06"></i> </div>
+											</div>
+										</div>
+										<p class="quik-actions">Custom Report</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-3  mb-3">
+						<div class="schedule-box pt-3 pb-2 h-100">
+							<div class="container-fluid">
+								<div class="d-flex flex-column justify-content-between">
+									<div>
+										<h6 class="admin-heading03">Schedule Reports</h6>
+										<p class="admin-paragraph01 pt-2"> Automate report delivery to your email. </p>
+									</div>
+									<button class="schedule-btn" type="btn"><i class="fa-solid fa-plus me-2"></i> Schedule New Report</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+
+
+			<script src="../assets01/js/jquery.min.js"></script>
+			<script src="../assets01/js/bootstrap.bundle.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+			<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+			<script src="../assets01/js/owl.carousel.min.js"></script>
+			<script src="../assets01/js/index.js"></script>
+			<script src="../assets01/js/graphs.js"></script>
+			<script src="../assets01/js/owl.js"></script>
+			<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				flatpickr("#auditDatePicker", {
+					mode: "range",
+					dateFormat: "M d, Y",
+					defaultDate: ["2025-05-12", "2025-06-11"],
+					allowInput: false
+				});
+			});
+			</script>
+		</div>
+	</div>
+</body>
+
+</html>

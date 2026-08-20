@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <title> Baytac Admin - Dashboard </title>
+    <link href="../assets01/css/index.css" rel="stylesheet" />
+    <link href="../assets01/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets01/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets01/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" rel="stylesheet" /> </head>
+
+<body>
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-logo">
+                <div class="logo-row">
+                    <div class="d-flex flex-row justify-content-center"> <img alt="logo-image" class="logo-image" loading="lazy" src="../assets01/images/logo.png" /> </div>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <p class="nav-category"> main </p>
+                <a class="nav-item" href="index.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 10.5 12 3l9 7.5"> </path>
+                        <path d="M5 9.5V21h14V9.5"> </path>
+                        <path d="M9 21v-6h6v6"> </path>
+                    </svg> <span class="label">
+                        Dashboard
+                    </span> </a>
+                <p class="nav-category01"> User & Management </p>
+                <a class="nav-item" href="user.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"> </path>
+                        <circle cx="9" cy="7" r="4"> </circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"> </path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"> </path>
+                    </svg> <span class="label">
+                        Users Management
+                    </span> </a>
+                <a class="nav-item" href="agent.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="12" cy="8" r="4"> </circle>
+                        <path d="M4 21c0-3.9 3.6-7 8-7s8 3.1 8 7"> </path>
+                    </svg> <span class="label">
+                        Agents Management
+                    </span> </a>
+                <a class="nav-item" href="agency.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 21h18"> </path>
+                        <path d="M5 21V7l7-4 7 4v14"> </path>
+                        <path d="M9 9h1M9 13h1M14 9h1M14 13h1M10 21v-4h4v4"> </path>
+                    </svg> <span class="label">
+                        Agencies Management
+                    </span> </a>
+                <a class="nav-item" href="developer.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <polyline points="16 18 22 12 16 6"> </polyline>
+                        <polyline points="8 6 2 12 8 18"> </polyline>
+                    </svg> <span class="label">
+                        Developers Management
+                    </span> </a>
+                <a class="nav-item" href="roles.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M12 2 4 5v6c0 5 3.4 8.7 8 11 4.6-2.3 8-6 8-11V5l-8-3Z"> </path>
+                    </svg> <span class="label">
+                        Roles & Permissions
+                    </span> </a>
+                <p class="nav-category01"> Listings & Content </p>
+                <a class="nav-item" href="property.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 10.5 12 3l9 7.5"> </path>
+                        <path d="M5 9.5V21h14V9.5"> </path>
+                        <path d="M9 21v-6h6v6"> </path>
+                    </svg> <span class="label">
+                        Properties Management
+                    </span> </a>
+                <a class="nav-item" href="approval.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="17" rx="2" width="18" x="3" y="4"> </rect>
+                        <path d="M8 2v4M16 2v4M8 12l2.5 2.5L16 9"> </path>
+                    </svg> <span class="label">
+                        Property Approval
+                    </span> <span class="badge">
+                        312
+                    </span> </a>
+                <a class="nav-item" href="listing.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M9 6h11"> </path>
+                        <path d="M9 12h11"> </path>
+                        <path d="M9 18h11"> </path>
+                        <circle cx="4" cy="6" r="1"> </circle>
+                        <circle cx="4" cy="12" r="1"> </circle>
+                        <circle cx="4" cy="18" r="1"> </circle>
+                    </svg> <span class="label">
+                        Listings Management
+                    </span> </a>
+                <a class="nav-item" href="projects.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="12" rx="2" width="18" x="3" y="5"> </rect>
+                        <path d="M2 19h20"> </path>
+                        <path d="M9 10l-2 2 2 2"> </path>
+                        <path d="M15 10l2 2-2 2"> </path>
+                    </svg> <span class="label">
+                        Projects Management
+                    </span> </a>
+                <a class="nav-item" href="areas.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M8 3H3v5"> </path>
+                        <path d="M3 3l6 6"> </path>
+                        <path d="M16 3h5v5"> </path>
+                        <path d="M21 3l-6 6"> </path>
+                        <path d="M3 16v5h5"> </path>
+                        <path d="M3 21l6-6"> </path>
+                        <path d="M21 16v5h-5"> </path>
+                        <path d="M21 21l-6-6"> </path>
+                    </svg> <span class="label">
+                        Areas Management
+                    </span> </a>
+                <a class="nav-item" href="category.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="7" rx="1" width="7" x="3" y="3"> </rect>
+                        <rect height="7" rx="1" width="7" x="14" y="3"> </rect>
+                        <rect height="7" rx="1" width="7" x="3" y="14"> </rect>
+                        <rect height="7" rx="1" width="7" x="14" y="14"> </rect>
+                    </svg> <span class="label">
+                        Categories & Types
+                    </span> </a>
+                <a class="nav-item" href="amenities.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="16" rx="2" width="18" x="3" y="4"> </rect>
+                        <circle cx="7" cy="9" r="0.8"> </circle>
+                        <circle cx="7" cy="15" r="0.8"> </circle>
+                        <path d="M10 9h7"> </path>
+                        <path d="M10 15h7"> </path>
+                    </svg> <span class="label">
+                        Amenities Management
+                    </span> </a>
+                <a class="nav-item" href="features.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M4 6h16"> </path>
+                        <path d="M4 12h16"> </path>
+                        <path d="M4 18h16"> </path>
+                        <circle cx="7" cy="6" r="1"> </circle>
+                        <circle cx="7" cy="12" r="1"> </circle>
+                        <circle cx="7" cy="18" r="1"> </circle>
+                    </svg> <span class="label">
+                        Features Management
+                    </span> </a>
+                <p class="nav-category01"> financial & billing </p>
+                <a class="nav-item" href="subscription.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="14" rx="2" width="20" x="2" y="5"> </rect>
+                        <path d="M2 10h20"> </path>
+                    </svg> <span class="label">
+                        Subscriptions & Plans
+                    </span> </a>
+                <a class="nav-item" href="transcation.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <rect height="12" rx="2" width="18" x="3" y="6"> </rect>
+                        <circle cx="12" cy="12" r="2.5"> </circle>
+                        <path d="M6 9c.8 0 1.5-.7 1.5-1.5"> </path>
+                        <path d="M18 9c-.8 0-1.5-.7-1.5-1.5"> </path>
+                        <path d="M6 15c.8 0 1.5.7 1.5 1.5"> </path>
+                        <path d="M18 15c-.8 0-1.5.7-1.5 1.5"> </path>
+                    </svg> <span class="label">
+                        Transactions
+                    </span> </a>
+                <a class="nav-item" href="invoice.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+                        <polyline points="14 2 14 8 20 8"> </polyline>
+                        <path d="M9 13h6M9 17h6"> </path>
+                    </svg> <span class="label">
+                        Invoices Management
+                    </span> </a>
+                <a class="nav-item" href="payout.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <!-- Dollar -->
+                        <circle cx="18" cy="6" r="3"> </circle>
+                        <path d="M18 4.5v3"> </path>
+                        <path d="M17 5.5c0-.6.5-1 1-1s1 .4 1 1-.5 1-1 1-.9.3-.9.9.4 1.1.9 1.1 1-.4 1-1"> </path>
+                        <!-- Hand -->
+                        <path d="M2 15h5l2 2h5.5c1.4 0 2.5-1.1 2.5-2.5S16.4 12 15 12h-4"> </path>
+                        <path d="M2 15v4h7l2-1h5c2.2 0 4-1.8 4-4"> </path>
+                    </svg> <span class="label">
+                        Payouts
+                    </span> </a>
+                <p class="nav-category01">REPORTS & ANALYTICS</p>
+               <a href="reports.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <path d="M3 11l18-5v14L3 15v-4Z"/>
+                     <path d="M11.6 16.8 9 21H7l1.5-4.6"/>
+                  </svg>
+                  <span class="label">Reports Dashboard</span>
+               </a>
+               <a href="analytics.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <circle cx="12" cy="12" r="9"/>
+                     <path d="M9 7l3 5"/>
+                     <path d="M15 7l-3 5"/>
+                     <path d="M12 12v5"/>
+                  </svg>
+                  <span class="label">Analytics Overview</span>
+               </a>
+               <a href="custom_report.html" class="nav-item">
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <rect x="3" y="3" width="18" height="18" rx="2"/>
+                     <path d="M8 17V11M12 17V7M16 17v-4"/>
+                  </svg>
+                  <span class="label">Custom Reports</span>
+               </a>
+                <p class="nav-category01"> system </p>
+                <a class="nav-item" href="system.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="12" cy="12" r="3"> </circle>
+                        <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z">
+                        </path>
+                    </svg> <span class="label">
+                        System Settings
+                    </span> </a>
+                <a class="nav-item" href="activity.html">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M4 4v16h16"> </path>
+                        <path d="M7 15l4-4 3 2 4-5"> </path>
+                        <circle cx="7" cy="15" r="0.7"> </circle>
+                        <circle cx="11" cy="11" r="0.7"> </circle>
+                        <circle cx="14" cy="13" r="0.7"> </circle>
+                        <circle cx="18" cy="8" r="0.7"> </circle>
+                    </svg> <span class="label">
+                        Activity Logs
+                    </span> </a>
+                <a class="nav-item active" href="audit.html">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"> </path>
+                        <polyline points="14 2 14 8 20 8"> </polyline>
+                        <path d="M9 13h6M9 17h3"> </path>
+                    </svg> <span class="label">
+                        Audit Logs
+                    </span> </a>
+            </nav>
+            <div class="sidebar-footer d-lg-block d-none">
+                <!-- <div class="status-box">
+          <div class="d-flex flex-row">
+            <i class="fa-solid fa-headphones nav-icons">
+            </i>
+            <div>
+              <p class="nav-paragraph-01">
+                Need Help?
+              </p>
+              <p class="nav-paragraph-02">
+                Our support team is here to help you.
+              </p>
+            </div>
+          </div>
+          <button class="nav-contact-support-btn" type="btn">
+            Contact Support
+          </button>
+        </div>
+        -->
+                <div class="footer-meta"> <strong>
+                        BAYTAC v2.0.0
+                    </strong>
+                    <br /> © 2026 BAYTAC. All rights reserved. </div>
+            </div>
+        </aside>
+        <div class="sidebar-overlay" id="overlay"> </div>
+        <div class="main">
+            <header class="topbar">
+                <button aria-label="Toggle menu" class="menu-toggle" id="menuToggle">
+                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <path d="M3 6h18M3 12h18M3 18h18"> </path>
+                    </svg>
+                </button>
+                <div class="search-box">
+                    <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                        <circle cx="11" cy="11" r="7"> </circle>
+                        <path d="m21 21-4.3-4.3"> </path>
+                    </svg>
+                    <input class="in" id="searchInput" placeholder="Search users, properties, transcations..." type="text" /> <span class="kbd" id="clearSearch">
+                        ⌘K
+                    </span> </div>
+                <div class="topbar-right">
+                    <div class="country-select">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <circle cx="12" cy="12" r="9"> </circle>
+                            <path d="M3 12h18"> </path>
+                            <path d="M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9Z"> </path>
+                        </svg> <span class="label-text">
+                            All Countries
+                        </span>
+                        <svg class="chev" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9"> </polyline>
+                        </svg>
+                        <select class="country-dropdown">
+                            <option> All Countries </option>
+                            <option> India </option>
+                            <option> United States </option>
+                            <option> United Kingdom </option>
+                            <option> Australia </option>
+                            <option> Canada </option>
+                        </select>
+                    </div>
+                    <button aria-label="Notifications" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M6 8a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"> </path>
+                            <path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"> </path>
+                        </svg> <span class="dot-badge">
+                            0
+                        </span> </button>
+                    <button aria-label="Messages" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"> </path>
+                        </svg> <span class="dot-badge">
+                            6
+                        </span> </button>
+                    <button aria-label="Toggle theme" class="icon-btns">
+                        <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"> </path>
+                        </svg>
+                    </button>
+                    <div class="divider-v"> </div>
+                    <div class="user-dropdown">
+                        <div class="user-block" id="userToggle"> <img alt="avatar" class="avatar-image" loading="lazy" src="../assets01/images/a01.png" />
+                            <div class="user-info user-info02"> <span class="name">
+                                    Super Admin
+                                </span> <span class="email">
+                                    superadmin@baytac.com
+                                </span> </div>
+                            <svg class="chev" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"> </polyline>
+                            </svg>
+                        </div>
+                        <div class="user-menu" id="userMenu">
+                            <a href="#"> <i class="fas fa-user">
+                                </i> My Profile </a>
+                            <a href="#"> <i class="fas fa-cog">
+                                </i> Settings </a>
+                            <a href="#"> <i class="fas fa-lock">
+                                </i> Change Password </a>
+                            <hr />
+                            <a class="logout" href="#"> <i class="fas fa-sign-out-alt">
+                                </i> Logout </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="content">
+                <div class="d-flex flex-row justify-content-between flex-wrap mb-3">
+                    <div>
+                        <h3 class="admin-heading01">
+                            Audit Logs
+                        </h3>
+                        <p class="admin-paragraph01"> Comprehensive audit trial of critical actions and changes across the BAYTAC platform. </p>
+                    </div>
+                    <div class="button-group">
+                        <div class="date-range">
+                            <div class="box"> <span id="dateText">
+                                    May 12, 2025 – Jun 11, 2025
+                                </span>
+                                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+                                    <rect height="18" rx="2" width="18" x="3" y="4"> </rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"> </path>
+                                </svg>
+                                <input id="dateRange" type="text" /> </div>
+                        </div>
+                        <button class="action-btn add-btn mt-2"> <i class="fa-solid fa-plus">
+                            </i> Export Audit Logs </button>
+                        <button class="action-btn mt-2"> <i class="fa-solid fa-gear">
+                            </i> </button>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between flex-wrap mb-3">
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Total Audit Events </p>
+                                <h5 class="admin-heading02">
+                                    48,593
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 18.6% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-04 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-file admin-user-icon-04">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Critical Events </p>
+                                <h5 class="admin-heading02">
+                                    3,245
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 12.4% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-06 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-calendar-days admin-user-icon-06">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Users Actions </p>
+                                <h5 class="admin-heading02">
+                                    26,781
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 15.7% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-02 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-user admin-user-icon-02">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Data Changes </p>
+                                <h5 class="admin-heading02">
+                                    15,942
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 21.3% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-05 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-regular fa-calendar admin-user-icon-05">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Failed Attempts </p>
+                                <h5 class="admin-heading02">
+                                    2,316
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 8.2% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-06 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-lock admin-user-icon-06">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-box-container pt-3 pe-3 ps-3 mb-2">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                <p class="admin-paragraph02"> Admin Actions </p>
+                                <h5 class="admin-heading02">
+                                    8,145
+                                </h5>
+                                <p class="increase-arrow"> <i class="fa-solid fa-arrow-up me-1">
+                                    </i> 17.8% </p>
+                                <p class="admin-paragraph03"> vs May 12 - Jun 11 </p>
+                            </div>
+                            <div class="admin-icon-container-03 d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center"> <i class="fa-solid fa-crown admin-user-icon-03">
+                                    </i> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between flex-wrap align-items-start">
+                    <div class="main-content-box">
+                        <div class="main-content-box01 pt-3 pb-2 mb-3">
+                            <div class="container-fluid">
+                                <div class="d-flex filter-container flex-wrap">
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label" for="exampleFormControlInput1"> Search Logs </label>
+                                        <div class="position-relative">
+                                            <input class="form-control filter-form pe-5" id="exampleFormControlInput1" placeholder="Search by keyword, ID, user..." type="email" /> <i class="fas fa-search search-icon">
+                                            </i> </div>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Date Range </label>
+                                        <div class="date-range-wrapper"> <i class="fa-regular fa-calendar date-icon">
+                                            </i>
+                                            <input class="form-control date-range-input" id="auditDatePicker" placeholder="May 12, 2026 - Jun 11" readonly="" type="text" /> <i class="fa-solid fa-chevron-down arrow-icon">
+                                            </i> </div>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Event Category </label>
+                                        <select aria-label="All Categories" class="form-select form-control">
+                                            <option selected=""> All Categories </option>
+                                            <option value="Data Changes"> Data Changes </option>
+                                            <option value="User Actions"> User Actions </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Severity Level </label>
+                                        <select aria-label="All Event Categories" class="form-select form-control">
+                                            <option selected=""> All Levels </option>
+                                            <option value="Low"> Low </option>
+                                            <option value="Medium"> Medium </option>
+                                            <option value="High"> High </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> User / Actor </label>
+                                        <select aria-label="All User / Actor" class="form-select form-control">
+                                            <option selected=""> All Users </option>
+                                            <option value="users"> Users </option>
+                                            <option value="actors"> Actors </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label"> Record Type </label>
+                                        <select aria-label="All Record Types" class="form-select form-control">
+                                            <option selected=""> All Record Types </option>
+                                            <option value="Pending"> Pending </option>
+                                            <option value="approval"> Approval </option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2 filter-item">
+                                        <label class="form-label filter-label invisible"> More Filters </label>
+                                        <button id="filter-grp-button" type="btn"> <i class="fa-solid fa-sliders me-2">
+                                            </i> More Filters </button>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between flex-wrap">
+                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-home" aria-selected="true" class="nav-link nav-link01 active" data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab" role="tab" type="button"> All Events </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-profile" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-profile" data-bs-toggle="pill" id="pills-profile-tab" role="tab" type="button"> Critical Events </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-contact" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-contact" data-bs-toggle="pill" id="pills-contact-tab" role="tab" type="button"> Admin Events </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled" data-bs-toggle="pill" id="pills-disabled-tab" role="tab" type="button"> Data Changes </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled01" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled01" data-bs-toggle="pill" id="pills-disabled-tab01" role="tab" type="button"> Security Events </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled02" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled02" data-bs-toggle="pill" id="pills-disabled-tab02" role="tab" type="button"> User Actions </button>
+                                        </li>
+                                        <li class="nav-item nav-item01 nav-link01" role="presentation">
+                                            <button aria-controls="pills-disabled03" aria-selected="false" class="nav-link nav-link01" data-bs-target="#pills-disabled03" data-bs-toggle="pill" id="pills-disabled-tab03" role="tab" type="button"> System Events </button>
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex flex-row flex-wrap mt-3">
+                                        <div class="pagination-wrapper">
+                                            <div class="left-actions">
+                                                <select id="bulkAction">
+                                                    <option> Bulk Actions </option>
+                                                    <option> Delete </option>
+                                                    <option> Export </option>
+                                                    <option> Archive </option>
+                                                </select>
+                                            </div>
+                                            <button class="action-btn"> <i class="fa-solid fa-arrows-rotate">
+                                                </i> </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-scroll mt-2">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class="checkbox-col">
+                                                    <input id="selectAll" type="checkbox" /> </th>
+                                                <th> Time </th>
+                                                <th> Actor </th>
+                                                <th> Event </th>
+                                                <th> Category </th>
+                                                <th> Resource </th>
+                                                <th> IP Address </th>
+                                                <th> Severity </th>
+                                                <th> Actions </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-agency="Micheal Lewis" data-id="PR-2025-0987" data-event="updated">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">
+                                                            Jun 11, 2025
+                                                        </span>
+                                                        <br /> <span>
+                                                            10:24:53 AM
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img alt="Michael Lewis" class="avatar" src="../assets01/images/a01.png" />
+                                                        <div class="user-info"> <span class="user-name">
+                                                                Michael Lewis
+                                                            </span> <span class="user-phone">
+                                                                Agent
+                                                            </span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">
+                                                            Proeprty Updated
+                                                        </span>
+                                                        <br /> <span>
+                                                            Updated property details
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge04">
+                                                            <i class="fa-regular fa-file me-2"></i> Data Change
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">
+                                                            Palm Jumeirah Villa
+                                                        </span>
+                                                        <br /> <span>
+                                                            ID: PR-2025-0987
+                                                        </span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>
+                                                            197.168.125
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge04">
+                                                            Medium
+                                                        </span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis">
+                                                            </i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Sarah Johnson" data-id="US-2025-2541" data-event="updated">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>10:15:32 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/a03.png" class="avatar" alt="Sarah Johnson" />
+                                                        <div class="user-info"> <span class="user-name">Sarah Johnson</span> <span class="user-phone">User</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Profile Information Changed</span>
+                                                        <br /> <span>Updated profile information</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">
+                                                            <i class="fa-regular fa-user me-2"></i>User Action
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">User Profile</span>
+                                                        <br /> <span>ID: US-2025-2541</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>192.168.1.12</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">Low</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Admin (Super Admin)" data-id="LS-2025-4521" data-event="approved">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>09:58:21 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/a02.png" class="avatar" alt="Admin" />
+                                                        <div class="user-info"> <span class="user-name">Admin (Super Admin)</span> <span class="user-phone">Administrator</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Property Approved</span>
+                                                        <br /> <span>Approved property listing</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge01">
+                                                            <i class="fa-solid fa-crown me-2"></i>Admin Action
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Downtown Apartment</span>
+                                                        <br /> <span>ID: LS-2025-4521</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>197.168.1.11</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge05">High</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Ahmed Hassan" data-id="MSG-78745" data-event="message">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>09:47:10 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/a04.png" class="avatar" alt="Ahmed Hassan" />
+                                                        <div class="user-info"> <span class="user-name">Ahmed Hassan</span> <span class="user-phone">Agent</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Message Sent</span>
+                                                        <br /> <span>Sent message to user</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">
+                                                            <i class="fa-regular fa-user me-2"></i>User Action
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Message ID</span>
+                                                        <br /> <span>ID: MSG-78745</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>105.168.1.34</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">Low</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="System" data-id="BACKUP" data-event="backup">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>09:32:45 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/sobha.jpg" class="avatar" alt="System" />
+                                                        <div class="user-info"> <span class="user-name">System</span> <span class="user-phone">System Process</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Database Backup</span>
+                                                        <br /> <span>Daily backup completed</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge02">
+                                                            <i class="fa-regular fa-hard-drive me-2"></i>System Event
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Backup</span>
+                                                        <br /> <span>Size: 2.45 GB</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>192.168.1.10</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">Low</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Emma Properties" data-id="SUB-2025-8892" data-event="subscription">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>09:21:11 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/emaar.png" class="avatar" alt="Emma Properties" />
+                                                        <div class="user-info"> <span class="user-name">Emma Properties</span> <span class="user-phone">Agency</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Subscription Created</span>
+                                                        <br /> <span>New subscription created</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge04">
+                                                            <i class="fa-regular fa-file me-2"></i> Data Change
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Professional Plan</span>
+                                                        <br /> <span>ID: SUB-2025-8892</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>154.168.1.45</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge04">Medium</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Admin (Moderator)" data-id="POST-9987" data-event="deleted">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>09:10:05 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/a02.png" class="avatar" alt="Admin Moderator" />
+                                                        <div class="user-info"> <span class="user-name">Admin (Moderator)</span> <span class="user-phone">Moderator</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Post Deleted</span>
+                                                        <br /> <span>Deleted inappropriate post</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge01">
+                                                            <i class="fa-solid fa-crown me-2"></i> Admin Action
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Post ID</span>
+                                                        <br /> <span>ID: POST-9987</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>197.168.1.11</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge05">High</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="James Wilson" data-id="PR-2025-0765" data-event="saved">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>08:58:30 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/as02.avif" class="avatar" alt="James Wilson" />
+                                                        <div class="user-info"> <span class="user-name">James Wilson</span> <span class="user-phone">User</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Property Saved</span>
+                                                        <br /> <span>Saved property to favorites</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">
+                                                            <i class="fa-regular fa-file me-2"></i> User Action
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Marina View Apartment</span>
+                                                        <br /> <span>ID: PR-2025-0765</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>192.168.1.88</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">Low</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Unknown User" data-id="LOGIN" data-event="failed-login">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>08:40:22 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/dummy-user.jpg" class="avatar" alt="Unknown User" />
+                                                        <div class="user-info"> <span class="user-name">Unknown User</span> <span class="user-phone">Guest</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Failed Login Attempt</span>
+                                                        <br /> <span>Invalid password attempt</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge05">
+                                                            <i class="fa-regular fa-file me-2"></i> Security Event
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Login Attempt</span>
+                                                        <br /> <span>Security Check</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>203.0.113.56</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge01">Critical</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr data-agency="Billing System" data-id="INV-2025-8842" data-event="invoice">
+                                                <td>
+                                                    <input class="row-check" type="checkbox" /> </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-01"> <span class="b01">Jun 11, 2025</span>
+                                                        <br /> <span>08:25:14 AM</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-cell user-cell03"> <img src="../assets01/images/dummy-user.jpg" class="avatar" alt="Billing System" />
+                                                        <div class="user-info"> <span class="user-name">Billing System</span> <span class="user-phone">System</span> </div>
+                                                    </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Invoice Generated</span>
+                                                        <br /> <span>Invoice generated for user</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge02">
+                                                            <i class="fa-regular fa-file me-2"></i> System Event
+                                                        </span> </div>
+                                                </td>
+                                                <td class="user-id">
+                                                    <div class="user-id-02"> <span class="b01">Invoice ID</span>
+                                                        <br /> <span>ID: INV-2025-8842</span> </div>
+                                                </td>
+                                                <td class="join-date">
+                                                    <div class="user-id-01"> <span>192.168.1.15</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="user-id-01"> <span class="badge03">Low</span> </div>
+                                                </td>
+                                                <td>
+                                                    <div class="actions-cell">
+                                                        <button class="icon-btn"> <i class="fa-solid fa-ellipsis"></i> </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between flex-wrap mt-3">
+                                    <p class="paragraph01 pt-2">Showing 1 to 10 of 48,593 audit events</p>
+                                    <div class="d-flex flex-row flex-wrap">
+                                        <div class="pagination02 mb-2">
+                                            <!-- <button class="page-btn" id="prevBtn">
+                                          <i class="fa-solid fa-chevron-left"></i> --></button>
+                                            <button class="page-number active">1</button>
+                                            <button class="page-number">2</button>
+                                            <button class="page-number">3</button>
+                                            <button class="page-number">4</button>
+                                            <button class="page-number">5</button> <span class="dots">...</span>
+                                            <button class="page-number">4,660</button>
+                                            <button class="page-btn ms-2" id="nextBtn"> <i class="fa-solid fa-chevron-right"></i> </button>
+                                        </div>
+                                        <div class="dropdown mt-1">
+                                            <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> 10/Page </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">20/Page</a></li>
+                                                <li><a class="dropdown-item" href="#">30/Page</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="d-flex flex-row justify-content-between flex-wrap">
+                                <div class="admin-side-box-01 pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between flex-wrap pb-2">
+                                            <h6 class="admin-heading03">Events Over Time</h6>
+                                            <div class="dropdown">
+                                                <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Last 7 Days </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Last 5 Days</a></li>
+                                                    <li><a class="dropdown-item" href="#">Last 3 Days</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="chart-wrap-01">
+                                            <svg viewBox="0 0 502 197" xmlns="http://www.w3.org/2000/svg">
+                                                <defs>
+                                                    <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+                                                        <stop offset="0%" stop-color="#3B2E8C" stop-opacity="0.30" />
+                                                        <stop offset="100%" stop-color="#3B2E8C" stop-opacity="0" /> </linearGradient>
+                                                </defs>
+                                                <!-- Y axis labels -->
+                                                <text class="axis-label axis-label-y" x="32" y="24.5">8K</text>
+                                                <text class="axis-label axis-label-y" x="32" y="60.2">6K</text>
+                                                <text class="axis-label axis-label-y" x="32" y="94.2">4K</text>
+                                                <text class="axis-label axis-label-y" x="32" y="129.7">2K</text>
+                                                <text class="axis-label axis-label-y" x="32" y="163.7">0</text>
+                                                <!-- X axis labels -->
+                                                <text class="axis-label axis-label-x" x="82" y="182">May 5</text>
+                                                <text class="axis-label axis-label-x" x="146.5" y="182">May 6</text>
+                                                <text class="axis-label axis-label-x" x="209.5" y="182">May 7</text>
+                                                <text class="axis-label axis-label-x" x="272.5" y="182">May 8</text>
+                                                <text class="axis-label axis-label-x" x="334.5" y="182">May 9</text>
+                                                <text class="axis-label axis-label-x" x="397.5" y="182">May 10</text>
+                                                <text class="axis-label axis-label-x" x="461" y="182">May 11</text>
+                                                <!-- Area fill -->
+                                                <path class="area-fill" d="M 52.9,160.5 L 52.9,152.8 C 57.6,150.2 72.1,142.3 81.2,137.0 C 90.3,131.7 100.1,125.5 107.5,120.7 C 114.9,115.9 119.3,112.1 125.8,108.2 C 132.3,104.3 139.5,97.1 146.3,97.2 C 153.1,97.3 161.4,105.1 166.8,108.8 C 172.2,112.5 171.4,118.4 178.5,119.3 C 185.6,120.2 200.3,118.1 209.4,114.3 C 218.5,110.5 222.9,102.5 233.1,96.5 C 243.3,90.5 258.8,77.2 270.4,78.6 C 282.0,80.0 292.4,101.1 303.0,105.0 C 313.6,108.9 323.7,105.5 333.7,101.8 C 343.7,98.1 352.4,86.7 362.9,82.7 C 373.4,78.7 385.5,76.8 396.5,77.6 C 407.5,78.4 419.2,94.2 428.8,87.8 C 438.4,81.4 448.1,43.4 454.0,39.2 C 459.9,35.0 462.3,58.6 464.0,62.5 L 464.0,160.5 Z"
+                                                />
+                                                <!-- Line -->
+                                                <path class="line-path" d="M 52.9,152.8 C 57.6,150.2 72.1,142.3 81.2,137.0 C 90.3,131.7 100.1,125.5 107.5,120.7 C 114.9,115.9 119.3,112.1 125.8,108.2 C 132.3,104.3 139.5,97.1 146.3,97.2 C 153.1,97.3 161.4,105.1 166.8,108.8 C 172.2,112.5 171.4,118.4 178.5,119.3 C 185.6,120.2 200.3,118.1 209.4,114.3 C 218.5,110.5 222.9,102.5 233.1,96.5 C 243.3,90.5 258.8,77.2 270.4,78.6 C 282.0,80.0 292.4,101.1 303.0,105.0 C 313.6,108.9 323.7,105.5 333.7,101.8 C 343.7,98.1 352.4,86.7 362.9,82.7 C 373.4,78.7 385.5,76.8 396.5,77.6 C 407.5,78.4 419.2,94.2 428.8,87.8 C 438.4,81.4 448.1,43.4 454.0,39.2 C 459.9,35.0 462.3,58.6 464.0,62.5"
+                                                />
+                                                <!-- Data points with CSS-only hover tooltips -->
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="52.9" cy="152.8" r="10" />
+                                                    <circle class="dot06" cx="52.9" cy="152.8" r="3" />
+                                                    <g class="tooltip" transform="translate(52.9,152.8)">
+                                                        <rect class="tooltip-bg" x="-19" y="-30" width="38" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">410</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="81.2" cy="137.0" r="10" />
+                                                    <circle class="dot06" cx="81.2" cy="137.0" r="3" />
+                                                    <g class="tooltip" transform="translate(81.2,137.0)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">1.32K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="107.5" cy="120.7" r="10" />
+                                                    <circle class="dot06" cx="107.5" cy="120.7" r="3" />
+                                                    <g class="tooltip" transform="translate(107.5,120.7)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">2.26K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="125.8" cy="108.2" r="10" />
+                                                    <circle class="dot06" cx="125.8" cy="108.2" r="3" />
+                                                    <g class="tooltip" transform="translate(125.8,108.2)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">2.98K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="146.3" cy="97.2" r="10" />
+                                                    <circle class="dot06" cx="146.3" cy="97.2" r="3" />
+                                                    <g class="tooltip" transform="translate(146.3,97.2)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">3.61K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="166.8" cy="108.8" r="10" />
+                                                    <circle class="dot06" cx="166.8" cy="108.8" r="3" />
+                                                    <g class="tooltip" transform="translate(166.8,108.8)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">2.94K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="178.5" cy="119.3" r="10" />
+                                                    <circle class="dot06" cx="178.5" cy="119.3" r="3" />
+                                                    <g class="tooltip" transform="translate(178.5,119.3)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">2.34K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="209.4" cy="114.3" r="10" />
+                                                    <circle class="dot06" cx="209.4" cy="114.3" r="3" />
+                                                    <g class="tooltip" transform="translate(209.4,114.3)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">2.63K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="233.1" cy="96.5" r="10" />
+                                                    <circle class="dot06" cx="233.1" cy="96.5" r="3" />
+                                                    <g class="tooltip" transform="translate(233.1,96.5)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">3.65K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="270.4" cy="78.6" r="10" />
+                                                    <circle class="dot06" cx="270.4" cy="78.6" r="3" />
+                                                    <g class="tooltip" transform="translate(270.4,78.6)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">4.68K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="303.0" cy="105.0" r="10" />
+                                                    <circle class="dot06" cx="303.0" cy="105.0" r="3" />
+                                                    <g class="tooltip" transform="translate(303.0,105.0)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">3.16K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="333.7" cy="101.8" r="10" />
+                                                    <circle class="dot06" cx="333.7" cy="101.8" r="3" />
+                                                    <g class="tooltip" transform="translate(333.7,101.8)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">3.34K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="362.9" cy="82.7" r="10" />
+                                                    <circle class="dot06" cx="362.9" cy="82.7" r="3" />
+                                                    <g class="tooltip" transform="translate(362.9,82.7)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">4.44K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="396.5" cy="77.6" r="10" />
+                                                    <circle class="dot06" cx="396.5" cy="77.6" r="3" />
+                                                    <g class="tooltip" transform="translate(396.5,77.6)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">4.74K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="428.8" cy="87.8" r="10" />
+                                                    <circle class="dot06" cx="428.8" cy="87.8" r="3" />
+                                                    <g class="tooltip" transform="translate(428.8,87.8)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">4.15K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="454.0" cy="39.2" r="10" />
+                                                    <circle class="dot06" cx="454.0" cy="39.2" r="3" />
+                                                    <g class="tooltip" transform="translate(454.0,39.2)">
+                                                        <rect class="tooltip-bg" x="-21" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="0" y="-17">6.94K</text>
+                                                    </g>
+                                                </g>
+                                                <g class="point06">
+                                                    <circle class="hit-area" cx="464.0" cy="62.5" r="10" />
+                                                    <circle class="dot06" cx="464.0" cy="62.5" r="3" />
+                                                    <g class="tooltip" transform="translate(464.0,62.5)">
+                                                        <rect class="tooltip-bg" x="-25" y="-30" width="42" height="18" rx="4" />
+                                                        <text class="tooltip-text" x="-4" y="-17">5.6K</text>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="admin-side-box-01 pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <h6 class="admin-heading03">Severity Distribution</h6> <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <div class="chart-wrap">
+                                                        <svg style="transform: rotate(-90deg);" viewbox="0 0 200 200">
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#2DC789" stroke-dasharray="79.3 20.7" stroke-dashoffset="0" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#F48922" stroke-dasharray="14.9 85.1" stroke-dashoffset="-79.3" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#EF4444" stroke-dasharray="4.9 95.1" stroke-dashoffset="-94.2" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#7C3AED" stroke-dasharray="1.0 99.0" stroke-dashoffset="-99.1" stroke-width="23"></circle>
+                                                        </svg>
+                                                        <div class="donut-center">
+                                                            <div class="total-number"> 48,593 </div>
+                                                            <div class="total-label"> Total </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot03"></i> Low </p>
+                                                    <p class="donut01"> 38,562(79.3%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot04"></i> Medium </p>
+                                                    <p class="donut01"> 7,245(14.9%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot07"></i> High </p>
+                                                    <p class="donut01"> 2,316(4.9%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot01"></i> Critical </p>
+                                                    <p class="donut01"> 470(1.0%) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="admin-side-box-01 pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+                                            <h6 class="admin-heading03">Recent Critical Events</h6>
+                                            <a class="ahref01" href="#">View All</a>
+                                        </div>
+
+                                        <a href="#" class="audit-paragraph-01">
+                                            <span class="audit-paragraph-01">Login attempts from suspicious IP</span>
+                                        </a>
+                                        <div class="d-flex flex-row justify-content-between flex-wrap mb-2">
+                                            <a href="#" class="audit-paragraph-02">00.03.2025</a>
+                                            <div class="d-flex flex-row">
+                                                <a href="#" class="audit-paragraph-02 me-2">08:40 AM</a>
+                                                <span class="badge05">Critical</span>
+                                            </div>
+                                        </div>
+
+
+                                        <a href="#" class="audit-paragraph-01">
+                                            <span class="audit-paragraph-01">Unauthorized access attempt blocked</span>
+                                        </a>
+                                        <div class="d-flex flex-row justify-content-between flex-wrap mb-2">
+                                            <a href="#" class="audit-paragraph-02">00.03.2025</a>
+                                            <div class="d-flex flex-row">
+                                                <a href="#" class="audit-paragraph-02 me-2">07:32 AM</a>
+                                                <span class="badge05">Critical</span>
+                                            </div>
+                                        </div>
+
+
+                                        <a href="#" class="audit-paragraph-01">
+                                            <span class="audit-paragraph-01">Unauthorized access attempt blocked</span>
+                                        </a>
+                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                            <a href="#" class="audit-paragraph-02">00.03.2025</a>
+                                            <div class="d-flex flex-row">
+                                                <a href="#" class="audit-paragraph-02 me-2">08:15 AM</a>
+                                                <span class="badge05">Critical</span>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="side-content-box mb-3">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="admin-side-box pt-3 pb-3">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <h6 class="admin-heading03">Audit Log Details</h6> <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+                                        </div>
+                                        <span class="badge03 mb-3"> •  Success</span>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <span class="audit-p01">Event ID: </span>
+                                            <span class="audit-p02">AUD-2025-0012456</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <span class="audit-p01">Event Time: </span>
+                                            <span class="audit-p02">Jun 11, 2025 10:24:53 AM <br> (2 minutes age)</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <span class="audit-p01">Event: </span>
+                                            <span class="audit-p02">Property Updated</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <span class="audit-p01">Description: </span>
+                                            <span class="audit-p02">Updated properly details for <br> Palm Jumeirah Villa</span>
+                                        </div>
+
+                                        <p class="audit-p01 mb-3">Author: </p>
+
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets01/images/a01.png" class="num-user-image" alt="user-image" loading="lazy">
+                                            <div>
+                                                <p class="agent-name">Michael Lweis</p>
+                                                <p class="agency">Agent</p>
+                                                <div class="ahref010">
+                                                    <a class="ahref010" href="#">View Profile <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p class="audit-p01 mb-3 mt-3">Resource: </p>
+
+                                        <div class="user-cell user-cell01">
+                                            <img class="avatar avatar-cell-01" src="../assets01/images/f01.png">
+                                            <div class="user-info"><span class="user-name">Palm Jumeirah Villa</span><span class="user-phone">ID: PR-2025-0987</span><a class="ahref01 pt-1" href="#">View Property <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a></div>
+
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">IP Address: </span>
+                                            <span class="audit-p02">107.05.2025 <br> Dubai, United Arab Emirates</span>
+                                        </div>
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">User Agent: </span>
+                                            <span class="audit-p02">Windows NT 10:00 Win54, x64</span>
+                                        </div>
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-2 mt-3">
+                                            <span class="audit-p01">Changes Mode: </span>
+                                            <a class="ahref01" href="#">View Changes</a>
+                                        </div>
+
+                                        <div class="d-flex flex-row">
+                                            <span class="audit-p02 me-2">Previous</span>
+                                            <span class="badge03"> Success</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-12 col-lg-6 col-xl-12 mb-3">
+                                <div class="admin-side-box pt-3 pb-2">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between mb-2">
+                                            <h6 class="admin-heading03">Top Event Categories</h6> <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <div class="chart-wrap">
+                                                        <svg style="transform: rotate(-90deg);" viewbox="0 0 200 200">
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#2DC789" stroke-dasharray="60.3 39.7" stroke-dashoffset="0" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#7C3AED" stroke-dasharray="25.8 74.2" stroke-dashoffset="-60.3" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#F48922" stroke-dasharray="10.2 89.8" stroke-dashoffset="-86.1" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#4C8AFE" stroke-dasharray="2.3 97.7" stroke-dashoffset="-96.3" stroke-width="23"></circle>
+                                                            <circle cx="100" cy="100" fill="none" pathlength="100" r="87" stroke="#9CA3AF" stroke-dasharray="2.3 97.7" stroke-dashoffset="-98.6" stroke-width="23"></circle>
+                                                        </svg>
+                                                        <div class="donut-center">
+                                                            <div class="total-number"> 48,593 </div>
+                                                            <div class="total-label"> Total </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7 mb-3 d-flex flex-column justify-content-center">
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot03"></i> User Actions </p>
+                                                    <p class="donut01"> 26,939(60.3%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot01"></i> Data Chnages </p>
+                                                    <p class="donut01"> 15,642(25.8%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot04"></i> Admin Actions </p>
+                                                    <p class="donut01"> 8,345(10.2%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot02"></i> Secure Events</p>
+                                                    <p class="donut01"> 2,343(2.3%) </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-between">
+                                                    <p class="donut01"> <i class="fa-solid fa-circle dot06"></i> System Events </p>
+                                                    <p class="donut01"> 1,408(2.3%) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-12 col-lg-6 col-xl-12 mb-3">
+                                <div class="admin-side-box pt-3 pb-3">
+                                    <div class="container-fluid">
+                                        <div class="d-flex flex-row justify-content-between flex-wrap mb-4">
+                                            <h6 class="admin-heading03">Audit Summary</h6>
+                                            <div class="dropdown">
+                                                <button class="btn new-drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> This Month </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Previous Month</a></li>
+                                                    <li><a class="dropdown-item" href="#">02 Months ago</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+
+
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/a01.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agent-name">Michael Lewis</p>
+                                                    <p class="agency">Most Active User</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="pt-2">
+                                                <p class="agency">1,245 events</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="d-flex flex-row justify-content-between mb-3">
+
+
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/emaar.png" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agent-name">Properties</p>
+                                                    <p class="agency">Most Changed Data</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="pt-2">
+                                                <p class="agency">8,742 events</p>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="d-flex flex-row justify-content-between">
+
+
+                                            <div class="d-flex flex-row">
+                                                <img src="../assets01/images/aldar.jpg" class="num-user-image" alt="user-image" loading="lazy">
+                                                <div>
+                                                    <p class="agent-name">Security Events</p>
+                                                    <p class="agency">Most Critical Events</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="pt-2">
+                                                <p class="agency">166 events</p>
+                                            </div>
+                                        </div>
+
+
+                                        <button class="view-role-btn" type="btn"> View Full Audit Report</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <script src="../assets01/js/jquery.min.js">
+            </script>
+            <script src="../assets01/js/bootstrap.bundle.min.js">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/flatpickr">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/apexcharts">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/jsvectormap">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js">
+            </script>
+            <script src="../assets01/js/owl.carousel.min.js">
+            </script>
+            <script src="../assets01/js/index.js">
+            </script>
+            <script src="../assets01/js/graphs.js">
+            </script>
+            <script src="../assets01/js/owl.js">
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                				flatpickr("#auditDatePicker", {
+                					mode: "range",
+                					dateFormat: "M d, Y",
+                					defaultDate: ["2025-05-12", "2025-06-11"],
+                					allowInput: false
+                				});
+                			});
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
